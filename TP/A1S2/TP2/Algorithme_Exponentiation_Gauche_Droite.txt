@@ -1,0 +1,15 @@
+Algorithme : Exponentiation ”Version Droite-Gauche”
+
+fonction Exponentiation_Droite_Gauche(g, e, n)
+Données : g ∈ Z, e ∈ Z, n ∈ N*;
+
+Début
+| Calculer ebinary = (d0, d1, · · · , dk-2, dk-1); //convertion en binaire de e
+| Emod = 1; Exp = g;
+| Pour i=k-1 jusqu’a 0 inclus faire
+| |  Si di = 1 alors  //on regarde dans le tableau si d = 0 ou 1
+| |  |  Emod = EmodExp mod n
+| |  Fin
+| |  Exp = Exp2 mod n
+| Fin
+Fin

@@ -1,0 +1,15 @@
+algorithme naïf de la fonction récursive terminal g^e mod n
+
+
+fonction Exponentiation_Rec_Term(g, e, acc)
+donné: g ∈ R, e ∈ N, acc = 1;
+
+Début
+| Si e = 0 alors
+|  |  Retourner acc;
+| Fin Si
+| Si e = 1 alors
+|  |  Retourner g * acc;
+| Fin Si
+| Returner Exponentiation_Rec_Term(g, e-1, g*acc);
+Fin

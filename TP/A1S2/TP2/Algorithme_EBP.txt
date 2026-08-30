@@ -1,0 +1,28 @@
+algorithme de vérifiction de EBP
+
+fonction parsing(n, EBP)
+Données : tableau EBP de taille n;
+
+Début
+|  Si n%2 = 1 alors
+|  |  Afficher la chaine n'est pas une EBP;
+|  |  Retourner 0;
+|  Fin Si
+|  m = 0;
+|  v = 0;
+|  Pour i=0 jusqu'a n non inclus alors
+|  |  Si EBP[i] = ( alors
+|  |  |  m = m + 1;
+|  |  Fin Si
+|  |  Si EBP[i] = ) alors
+|  |  |  v = v + 1;
+|  |  Fin Si
+|  Fin Pour
+|  Si m = v alors
+|  |  Afficher la chaine est une EBP;
+|  |  Retourner 1;
+|  Sinon
+|  |  Afficher la chaine n'est pas une EBP;
+|  |  Retourner 0;
+|  Fin Si Sinon
+Fin

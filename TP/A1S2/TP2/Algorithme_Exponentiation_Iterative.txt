@@ -1,0 +1,17 @@
+algorithme naïf de la fonction iterative g^e mod n
+
+fonction Exponentiation_Iter(g, e)
+donné g ∈ R, e ∈ N, EXP = g, i = 2;
+
+Début
+| Si e = 0 alors
+| |  Retourner 1;
+| Fin Si
+| Si e = 1 alors
+| |  Retourner g;
+| Fin Si
+| Pour i=2 jusqu'à e inclus faire
+| |  EXP = EXP * g;
+| Fin Pour
+| Retourner EXP;
+Fin

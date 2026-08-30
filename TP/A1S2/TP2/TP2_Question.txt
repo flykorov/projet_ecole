@@ -1,0 +1,8 @@
+/1.2
+La valeur limite de N pour le unsigned int est 47
+
+/1.5
+La valeur limite de N pour le unsigned long long int est 3010
+
+/1.6
+La fonction itérative est plus efficace car elle est beaucoup plus rapide
