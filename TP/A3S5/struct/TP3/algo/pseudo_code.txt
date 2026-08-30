@@ -1,0 +1,46 @@
+# TP3 fonction inserer
+# Victor Bouvier d'Acher
+# Geoffroy Rodriguez
+
+Fonction recherche_num(d taille_tableau, tableau[taille_tableau], valeur_rechercher : N) : N;
+{...}
+
+Var arret : N  				# condition d'arret de la boucle
+Var it : N 					# incremente ou decremente l'iterateur
+Var debut : N  				# case du tableau lors du debut de recherche
+
+Début
+	debut  := taille_tableau/2				# debute l'iteration au milieu du tableau
+	si valeur_rechercer % 0 = 0 faire		# determine si le nombre recherchee est pair ou impair
+		arret := 0
+		it := -1
+	sinon
+		arret := taille tableau
+		it := 1
+	Fin si
+
+	tant que debut != arret faire
+		si tableau[debut] = NIL faire
+			debut := arret 					# arret du while si le tableau est vide
+		sinon	
+			si tableau[debut] = valeur_rechercher faire
+				recherche_num := debut						# return l'indice de la valeur rechercher
+			Fin si
+		Fin si
+		debut := debut + it
+	Fin tant que
+	recherche_num := -1									# return -1 car la valeur n'est pas dans le tableau
+Fin
+
+Complexite : le return a ete comptee comme une iteration constante
+
+pire		# on arrive jusqu'au bout du while sans s'arreter dedans
+7*C + (n/2)*(3*C) + C 
+
+meilleur	# on s'arrete au premier si du while
+10C
+
+moyen
+7*C + (n/4)*(3*C)	# on divise le while du pire cas par 2
+
+la complexite de l'algorithme est donc lineaire O(n)

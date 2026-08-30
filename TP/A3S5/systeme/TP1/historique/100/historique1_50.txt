@@ -1,0 +1,50 @@
+50	mkdir test 	20118
+49	cat bou.txt 	20117
+48	cat bou.txt 	20116
+47	cat bou.txt 	20115
+46	pwd 	20114
+45	ls -l 	20113
+44	pwd 	20112
+43	ls -l 	20111
+42	pwd 	20110
+41	pwd 	20109
+40	rmdir test 	20108
+39	ls -l 	20107
+38	ls -l 	20105
+37	mkdir test 	20104
+36	ls 	20103
+35	rmdir test 	20102
+34	cat bou.txt 	20101
+33	cat bou.txt 	20100
+32	mkdir test 	20099
+31	pwd 	20098
+30	pwd 	20097
+29	pwd 	20096
+28	pwd 	20095
+27	cat bou.txt 	20094
+26	pwd 	20093
+25	rmdir test 	20092
+24	pwd 	20091
+23	mkdir test 	20090
+22	rmdir test 	20089
+21	ls 	20088
+20	pwd 	20087
+19	ls 	20086
+18	mkdir test 	20085
+17	ls -l 	20084
+16	ls -l 	20083
+15	pwd 	20082
+14	rmdir test 	20081
+13	cat bou.txt 	20080
+12	ls 	20079
+11	pwd 	20078
+10	mkdir test 	20077
+9	rmdir test 	20076
+8	mkdir test 	20075
+7	rmdir test 	20074
+6	cat bou.txt 	20073
+5	mkdir test 	20072
+4	ls 	20071
+3	ls 	20070
+2	pwd 	20069
+1	cat bou.txt 	20068

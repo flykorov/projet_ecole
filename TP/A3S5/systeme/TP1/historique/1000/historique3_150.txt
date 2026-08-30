@@ -1,0 +1,100 @@
+150	ls -l 	18659
+149	pwd 	18658
+148	mkdir test 	18657
+147	pwd 	18656
+146	cat bou.txt 	18655
+145	ls -l 	18654
+144	ls -l 	18653
+143	cat bou.txt 	18652
+142	pwd 	18651
+141	pwd 	18650
+140	pwd 	18649
+139	ls 	18648
+138	pwd 	18647
+137	rmdir test 	18646
+136	cat bou.txt 	18645
+135	cat bou.txt 	18644
+134	cat bou.txt 	18643
+133	cat bou.txt 	18642
+132	ls -l 	18641
+131	ls -l 	18640
+130	pwd 	18639
+129	pwd 	18638
+128	ls 	18637
+127	cat bou.txt 	18636
+126	pwd 	18635
+125	pwd 	18634
+124	cat bou.txt 	18633
+123	ls -l 	18632
+122	pwd 	18631
+121	mkdir test 	18630
+120	cat bou.txt 	18629
+119	rmdir test 	18628
+118	pwd 	18627
+117	cat bou.txt 	18626
+116	cat bou.txt 	18625
+115	cat bou.txt 	18624
+114	mkdir test 	18623
+113	cat bou.txt 	18622
+112	ls -l 	18621
+111	ls -l 	18620
+110	ls -l 	18619
+109	ls -l 	18618
+108	ls 	18617
+107	ls 	18616
+106	pwd 	18615
+105	ls -l 	18614
+104	cat bou.txt 	18613
+103	cat bou.txt 	18612
+102	cat bou.txt 	18611
+101	rmdir test 	18610
+100	mkdir test 	18609
+99	rmdir test 	18608
+98	pwd 	18607
+97	cat bou.txt 	18606
+96	ls -l 	18605
+95	ls -l 	18604
+94	ls 	18603
+93	pwd 	18602
+92	cat bou.txt 	18601
+91	ls -l 	18600
+90	pwd 	18599
+89	pwd 	18598
+88	cat bou.txt 	18597
+87	ls -l 	18596
+86	pwd 	18595
+85	cat bou.txt 	18594
+84	cat bou.txt 	18593
+83	cat bou.txt 	18592
+82	pwd 	18591
+81	pwd 	18590
+80	ls 	18589
+79	cat bou.txt 	18588
+78	mkdir test 	18587
+77	cat bou.txt 	18586
+76	rmdir test 	18585
+75	cat bou.txt 	18584
+74	cat bou.txt 	18583
+73	pwd 	18582
+72	pwd 	18581
+71	pwd 	18580
+70	mkdir test 	18579
+69	cat bou.txt 	18578
+68	pwd 	18577
+67	cat bou.txt 	18576
+66	rmdir test 	18575
+65	mkdir test 	18574
+64	ls -l 	18573
+63	rmdir test 	18572
+62	cat bou.txt 	18571
+61	cat bou.txt 	18570
+60	mkdir test 	18569
+59	cat bou.txt 	18568
+58	ls 	18567
+57	rmdir test 	18566
+56	cat bou.txt 	18565
+55	ls -l 	18564
+54	cat bou.txt 	18563
+53	cat bou.txt 	18562
+52	ls -l 	18561
+51	pwd 	18560

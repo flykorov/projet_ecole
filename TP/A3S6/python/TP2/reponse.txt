@@ -1,0 +1,18 @@
+TP2
+Victor Bouvier d'Acher
+
+question:
+
+1)	Qu'est ce qu'un service web?
+	
+	systeme de communication entre ordinateurs sur ordinateur.
+	il s'agit d'interface API qui permet de communiquer via HTTP.
+
+2)	Une API REST, qu'est-ce que c'est ?
+	
+	une API est un ensemble de definition et protocole facilitant la creation et l'integration de  logiciel d'applications.
+	REST est un ensemble de contrainte architecturales.
+
+3)	Qu'est ce qu'une FastAPI?
+	
+	une FastAPI est un framework Web en python.

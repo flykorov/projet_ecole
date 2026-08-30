@@ -1,0 +1,100 @@
+300	cat bou.txt 	10407
+299	ls 	10406
+298	ls 	10405
+297	ls -l 	10404
+296	cat bou.txt 	10403
+295	pwd 	10402
+294	cat bou.txt 	10401
+293	pwd 	10400
+292	pwd 	10399
+291	pwd 	10398
+290	cat bou.txt 	10397
+289	pwd 	10396
+288	pwd 	10395
+287	pwd 	10394
+286	cat bou.txt 	10393
+285	ls 	10392
+284	ls 	10391
+283	cat bou.txt 	10390
+282	ls 	10389
+281	pwd 	10388
+280	pwd 	10387
+279	cat bou.txt 	10386
+278	cat bou.txt 	10385
+277	cat bou.txt 	10384
+276	ls -l 	10383
+275	cat bou.txt 	10382
+274	mkdir test 	10381
+273	rmdir test 	10380
+272	ls 	10379
+271	mkdir test 	10378
+270	pwd 	10377
+269	cat bou.txt 	10376
+268	pwd 	10375
+267	cat bou.txt 	10374
+266	cat bou.txt 	10373
+265	ls 	10372
+264	ls 	10371
+263	rmdir test 	10370
+262	mkdir test 	10369
+261	ls 	10368
+260	cat bou.txt 	10367
+259	rmdir test 	10366
+258	ls -l 	10365
+257	mkdir test 	10364
+256	pwd 	10363
+255	cat bou.txt 	10362
+254	rmdir test 	10361
+253	pwd 	10360
+252	pwd 	10359
+251	cat bou.txt 	10358
+250	pwd 	10357
+249	mkdir test 	10356
+248	ls 	10355
+247	pwd 	10354
+246	cat bou.txt 	10353
+245	rmdir test 	10352
+244	mkdir test 	10351
+243	cat bou.txt 	10350
+242	ls -l 	10349
+241	rmdir test 	10348
+240	ls -l 	10347
+239	mkdir test 	10346
+238	pwd 	10345
+237	cat bou.txt 	10344
+236	cat bou.txt 	10343
+235	pwd 	10342
+234	rmdir test 	10341
+233	mkdir test 	10340
+232	ls 	10339
+231	ls 	10338
+230	cat bou.txt 	10337
+229	pwd 	10336
+228	rmdir test 	10335
+227	cat bou.txt 	10334
+226	ls 	10333
+225	ls 	10332
+224	mkdir test 	10331
+223	rmdir test 	10330
+222	mkdir test 	10329
+221	ls -l 	10328
+220	cat bou.txt 	10327
+219	pwd 	10326
+218	pwd 	10325
+217	rmdir test 	10324
+216	cat bou.txt 	10323
+215	mkdir test 	10322
+214	cat bou.txt 	10321
+213	rmdir test 	10320
+212	cat bou.txt 	10319
+211	mkdir test 	10318
+210	ls 	10317
+209	cat bou.txt 	10316
+208	rmdir test 	10315
+207	mkdir test 	10314
+206	ls -l 	10313
+205	pwd 	10312
+204	cat bou.txt 	10311
+203	ls 	10310
+202	rmdir test 	10309
+201	mkdir test 	10308

@@ -1,0 +1,100 @@
+600	pwd 	19110
+599	cat bou.txt 	19109
+598	pwd 	19108
+597	pwd 	19107
+596	mkdir test 	19106
+595	rmdir test 	19105
+594	mkdir test 	19104
+593	ls 	19103
+592	cat bou.txt 	19102
+591	pwd 	19101
+590	rmdir test 	19100
+589	pwd 	19099
+588	ls 	19098
+587	mkdir test 	19097
+586	pwd 	19096
+585	cat bou.txt 	19095
+584	pwd 	19094
+583	pwd 	19093
+582	pwd 	19092
+581	cat bou.txt 	19091
+580	rmdir test 	19090
+579	pwd 	19089
+578	pwd 	19088
+577	cat bou.txt 	19087
+576	ls 	19086
+575	cat bou.txt 	19085
+574	cat bou.txt 	19084
+573	cat bou.txt 	19083
+572	pwd 	19082
+571	ls 	19081
+570	pwd 	19080
+569	cat bou.txt 	19079
+568	mkdir test 	19078
+567	pwd 	19077
+566	pwd 	19076
+565	cat bou.txt 	19075
+564	pwd 	19074
+563	pwd 	19073
+562	ls 	19072
+561	ls -l 	19071
+560	pwd 	19070
+559	ls 	19069
+558	pwd 	19068
+557	cat bou.txt 	19067
+556	cat bou.txt 	19066
+555	ls -l 	19065
+554	pwd 	19064
+553	pwd 	19063
+552	ls 	19062
+551	ls -l 	19061
+550	ls 	19060
+549	rmdir test 	19059
+548	pwd 	19058
+547	ls -l 	19057
+546	mkdir test 	19056
+545	rmdir test 	19055
+544	ls 	19054
+543	cat bou.txt 	19053
+542	mkdir test 	19052
+541	rmdir test 	19051
+540	mkdir test 	19050
+539	pwd 	19049
+538	rmdir test 	19048
+537	ls -l 	19047
+536	cat bou.txt 	19046
+535	ls -l 	19045
+534	ls 	19044
+533	ls -l 	19043
+532	pwd 	19042
+531	pwd 	19041
+530	ls 	19040
+529	ls -l 	19039
+528	ls 	19038
+527	mkdir test 	19037
+526	pwd 	19036
+525	cat bou.txt 	19035
+524	pwd 	19034
+523	pwd 	19033
+522	rmdir test 	19032
+521	ls -l 	19031
+520	cat bou.txt 	19030
+519	ls 	19029
+518	mkdir test 	19028
+517	pwd 	19027
+516	cat bou.txt 	19026
+515	rmdir test 	19025
+514	ls 	19024
+513	pwd 	19023
+512	cat bou.txt 	19022
+511	pwd 	19021
+510	cat bou.txt 	19020
+509	mkdir test 	19019
+508	pwd 	19018
+507	rmdir test 	19017
+506	mkdir test 	19016
+505	cat bou.txt 	19015
+504	ls -l 	19014
+503	cat bou.txt 	19013
+502	pwd 	19012
+501	cat bou.txt 	19011

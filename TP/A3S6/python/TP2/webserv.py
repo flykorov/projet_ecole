@@ -1,0 +1,33 @@
+# TP2 webserv.py
+# Victor Bouvier d'Acher
+
+from typing import Optional
+from fastapi import FastAPI
+from shodan import Shodan
+
+app = FastAPI()
+
+@app.get("/")
+async def read_root():
+	return {"Hello": "World"}
+
+@app.get("/ip/{ip}")
+async def get_ip(ip: str, key: Optional[str] = None):
+	if key is None:
+		return {"Error": "Please provide a valid API key"}
+	else:
+		try:
+			api = Shodan(key)
+			res = api.host(ip)
+			return {
+				"IP": res["ip_str"],
+				"Organisation": res["org"],
+				"Country": res["country_name"],
+				"Longitude": res["longitude"],
+				"Latitude": res["latitude"]
+			}
+		except Exception as e:
+			return {"Error": str(e)}
+
+# async def read_root():
+#     return {"Hello": "World"}

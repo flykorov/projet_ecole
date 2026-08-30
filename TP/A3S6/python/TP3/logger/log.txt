@@ -1,0 +1,10 @@
+2023-04-14 11:36:10,110 - franz#5973 has connected to Discord!
+2023-04-14 11:39:46,934 - franz#5973 has connected to Discord!
+2023-04-14 11:40:00,475 - Flykorov#5908 said: !hello
+2023-04-14 11:40:04,799 - Flykorov#5908 said: !help
+2023-04-14 11:40:22,672 - franz#5973 has connected to Discord!
+2023-04-14 11:40:24,148 - Flykorov#5908 said: !help
+2023-04-14 11:40:29,473 - Flykorov#5908 said: !hello
+2023-04-16 21:39:06,054 - franz#5973 has connected to Discord!
+2023-04-16 21:39:18,113 - Flykorov#5908 said: !hello
+2023-04-16 21:39:22,894 - Flykorov#5908 said: !help

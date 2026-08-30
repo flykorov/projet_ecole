@@ -1,0 +1,103 @@
+100
+mkdir test
+rmdir test
+pwd
+ls
+cat bou.txt
+ls -l
+ls -l
+ls
+mkdir test
+rmdir test
+pwd
+mkdir test
+cat bou.txt
+pwd
+ls -l
+pwd
+cat bou.txt
+cat bou.txt
+cat bou.txt
+cat bou.txt
+rmdir test
+mkdir test
+pwd
+rmdir test
+ls -l
+pwd
+ls
+mkdir test
+rmdir test
+cat bou.txt
+mkdir test
+pwd
+cat bou.txt
+rmdir test
+ls
+mkdir test
+cat bou.txt
+cat bou.txt
+rmdir test
+ls -l
+mkdir test
+cat bou.txt
+cat bou.txt
+rmdir test
+ls -l
+ls
+mkdir test
+rmdir test
+ls -l
+cat bou.txt
+historique
+mkdir test
+ls -l
+cat bou.txt
+ls -l
+ls -l
+pwd
+cat bou.txt
+rmdir test
+ls
+mkdir test
+rmdir test
+cat bou.txt
+pwd
+ls -l
+pwd
+pwd
+pwd
+ls -l
+pwd
+cat bou.txt
+mkdir test
+pwd
+cat bou.txt
+rmdir test
+mkdir test
+rmdir test
+mkdir test
+cat bou.txt
+pwd
+rmdir test
+cat bou.txt
+pwd
+mkdir test
+rmdir test
+cat bou.txt
+ls
+mkdir test
+rmdir test
+cat bou.txt
+mkdir test
+pwd
+pwd
+rmdir test
+pwd
+ls -l
+ls
+mkdir test
+rmdir test
+cat bou.txt
+mkdir test
+exit

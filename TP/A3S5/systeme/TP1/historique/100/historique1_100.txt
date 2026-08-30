@@ -1,0 +1,100 @@
+100	pwd 	20168
+99	pwd 	20167
+98	rmdir test 	20166
+97	cat bou.txt 	20165
+96	pwd 	20164
+95	ls -l 	20163
+94	mkdir test 	20162
+93	cat bou.txt 	20161
+92	rmdir test 	20160
+91	pwd 	20159
+90	mkdir test 	20158
+89	rmdir test 	20157
+88	pwd 	20156
+87	mkdir test 	20155
+86	rmdir test 	20154
+85	mkdir test 	20153
+84	rmdir test 	20152
+83	mkdir test 	20151
+82	ls 	20150
+81	cat bou.txt 	20149
+80	ls -l 	20148
+79	rmdir test 	20147
+78	cat bou.txt 	20146
+77	pwd 	20145
+76	mkdir test 	20144
+75	cat bou.txt 	20143
+74	cat bou.txt 	20142
+73	cat bou.txt 	20141
+72	cat bou.txt 	20140
+71	cat bou.txt 	20139
+70	pwd 	20138
+69	cat bou.txt 	20137
+68	ls 	20136
+67	ls 	20135
+66	ls 	20134
+65	ls 	20133
+64	rmdir test 	20132
+63	mkdir test 	20131
+62	pwd 	20130
+61	cat bou.txt 	20129
+60	pwd 	20128
+59	ls 	20127
+58	pwd 	20126
+57	pwd 	20125
+56	rmdir test 	20124
+55	ls 	20123
+54	pwd 	20122
+53	ls 	20121
+52	mkdir test 	20120
+51	rmdir test 	20119
+50	mkdir test 	20118
+49	cat bou.txt 	20117
+48	cat bou.txt 	20116
+47	cat bou.txt 	20115
+46	pwd 	20114
+45	ls -l 	20113
+44	pwd 	20112
+43	ls -l 	20111
+42	pwd 	20110
+41	pwd 	20109
+40	rmdir test 	20108
+39	ls -l 	20107
+38	ls -l 	20105
+37	mkdir test 	20104
+36	ls 	20103
+35	rmdir test 	20102
+34	cat bou.txt 	20101
+33	cat bou.txt 	20100
+32	mkdir test 	20099
+31	pwd 	20098
+30	pwd 	20097
+29	pwd 	20096
+28	pwd 	20095
+27	cat bou.txt 	20094
+26	pwd 	20093
+25	rmdir test 	20092
+24	pwd 	20091
+23	mkdir test 	20090
+22	rmdir test 	20089
+21	ls 	20088
+20	pwd 	20087
+19	ls 	20086
+18	mkdir test 	20085
+17	ls -l 	20084
+16	ls -l 	20083
+15	pwd 	20082
+14	rmdir test 	20081
+13	cat bou.txt 	20080
+12	ls 	20079
+11	pwd 	20078
+10	mkdir test 	20077
+9	rmdir test 	20076
+8	mkdir test 	20075
+7	rmdir test 	20074
+6	cat bou.txt 	20073
+5	mkdir test 	20072
+4	ls 	20071
+3	ls 	20070
+2	pwd 	20069
+1	cat bou.txt 	20068

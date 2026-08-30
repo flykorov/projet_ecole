@@ -1,0 +1,100 @@
+900	cat bou.txt 	19412
+899	cat bou.txt 	19411
+898	rmdir test 	19410
+897	pwd 	19409
+896	ls -l 	19408
+895	cat bou.txt 	19407
+894	pwd 	19406
+893	pwd 	19405
+892	pwd 	19404
+891	pwd 	19403
+890	ls 	19402
+889	pwd 	19401
+888	pwd 	19400
+887	cat bou.txt 	19399
+886	mkdir test 	19398
+885	cat bou.txt 	19397
+884	ls 	19396
+883	rmdir test 	19395
+882	ls 	19394
+881	ls -l 	19393
+880	pwd 	19392
+879	pwd 	19391
+878	pwd 	19390
+877	cat bou.txt 	19389
+876	pwd 	19388
+875	pwd 	19387
+874	cat bou.txt 	19386
+873	mkdir test 	19385
+872	ls -l 	19384
+871	cat bou.txt 	19383
+870	rmdir test 	19382
+869	ls -l 	19381
+868	cat bou.txt 	19380
+867	cat bou.txt 	19379
+866	mkdir test 	19378
+865	pwd 	19377
+864	rmdir test 	19376
+863	mkdir test 	19375
+862	pwd 	19374
+861	rmdir test 	19373
+860	ls -l 	19372
+859	cat bou.txt 	19371
+858	cat bou.txt 	19370
+857	mkdir test 	19369
+856	ls 	19368
+855	pwd 	19367
+854	pwd 	19366
+853	rmdir test 	19365
+852	mkdir test 	19364
+851	ls -l 	19363
+850	rmdir test 	19362
+849	cat bou.txt 	19361
+848	mkdir test 	19360
+847	cat bou.txt 	19359
+846	rmdir test 	19358
+845	pwd 	19357
+844	ls 	19356
+843	mkdir test 	19355
+842	cat bou.txt 	19354
+841	cat bou.txt 	19353
+840	rmdir test 	19352
+839	pwd 	19351
+838	ls -l 	19350
+837	cat bou.txt 	19349
+836	mkdir test 	19348
+835	rmdir test 	19347
+834	mkdir test 	19346
+833	ls -l 	19345
+832	rmdir test 	19344
+831	cat bou.txt 	19343
+830	cat bou.txt 	19342
+829	pwd 	19341
+828	mkdir test 	19340
+827	pwd 	19339
+826	rmdir test 	19338
+825	cat bou.txt 	19337
+824	mkdir test 	19336
+823	rmdir test 	19335
+822	mkdir test 	19334
+821	cat bou.txt 	19333
+820	ls 	19332
+819	ls -l 	19331
+818	ls -l 	19330
+817	rmdir test 	19329
+816	cat bou.txt 	19328
+815	cat bou.txt 	19327
+814	pwd 	19326
+813	cat bou.txt 	19325
+812	cat bou.txt 	19324
+811	ls 	19323
+810	ls 	19322
+809	ls 	19321
+808	mkdir test 	19320
+807	cat bou.txt 	19319
+806	ls -l 	19318
+805	pwd 	19317
+804	cat bou.txt 	19316
+803	cat bou.txt 	19315
+802	cat bou.txt 	19314
+801	rmdir test 	19313

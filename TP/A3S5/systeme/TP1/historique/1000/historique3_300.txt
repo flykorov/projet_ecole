@@ -1,0 +1,100 @@
+300	rmdir test 	18809
+299	ls -l 	18808
+298	ls 	18807
+297	ls 	18806
+296	mkdir test 	18805
+295	ls -l 	18804
+294	pwd 	18803
+293	cat bou.txt 	18802
+292	rmdir test 	18801
+291	cat bou.txt 	18800
+290	mkdir test 	18799
+289	ls 	18798
+288	rmdir test 	18797
+287	cat bou.txt 	18796
+286	mkdir test 	18795
+285	ls -l 	18794
+284	rmdir test 	18793
+283	mkdir test 	18792
+282	ls -l 	18791
+281	cat bou.txt 	18790
+280	pwd 	18789
+279	pwd 	18788
+278	ls -l 	18787
+277	ls 	18786
+276	pwd 	18785
+275	ls 	18784
+274	cat bou.txt 	18783
+273	rmdir test 	18782
+272	cat bou.txt 	18781
+271	mkdir test 	18780
+270	pwd 	18779
+269	cat bou.txt 	18778
+268	rmdir test 	18777
+267	pwd 	18776
+266	pwd 	18775
+265	pwd 	18774
+264	cat bou.txt 	18773
+263	mkdir test 	18772
+262	pwd 	18771
+261	pwd 	18770
+260	ls 	18769
+259	rmdir test 	18768
+258	pwd 	18767
+257	ls -l 	18766
+256	pwd 	18765
+255	pwd 	18764
+254	mkdir test 	18763
+253	pwd 	18762
+252	rmdir test 	18761
+251	cat bou.txt 	18760
+250	pwd 	18759
+249	cat bou.txt 	18758
+248	mkdir test 	18757
+247	rmdir test 	18756
+246	mkdir test 	18755
+245	rmdir test 	18754
+244	cat bou.txt 	18753
+243	cat bou.txt 	18752
+242	cat bou.txt 	18751
+241	pwd 	18750
+240	cat bou.txt 	18749
+239	ls -l 	18748
+238	mkdir test 	18747
+237	cat bou.txt 	18746
+236	ls 	18745
+235	rmdir test 	18744
+234	mkdir test 	18743
+233	rmdir test 	18742
+232	pwd 	18741
+231	cat bou.txt 	18740
+230	ls 	18739
+229	pwd 	18738
+228	pwd 	18737
+227	mkdir test 	18736
+226	ls -l 	18735
+225	rmdir test 	18734
+224	pwd 	18733
+223	mkdir test 	18732
+222	rmdir test 	18731
+221	ls 	18730
+220	cat bou.txt 	18729
+219	ls 	18728
+218	cat bou.txt 	18727
+217	mkdir test 	18726
+216	cat bou.txt 	18725
+215	ls 	18724
+214	rmdir test 	18723
+213	ls -l 	18722
+212	cat bou.txt 	18721
+211	cat bou.txt 	18720
+210	mkdir test 	18719
+209	rmdir test 	18718
+208	cat bou.txt 	18717
+207	ls -l 	18716
+206	mkdir test 	18715
+205	ls 	18714
+204	pwd 	18713
+203	cat bou.txt 	18712
+202	rmdir test 	18711
+201	mkdir test 	18710

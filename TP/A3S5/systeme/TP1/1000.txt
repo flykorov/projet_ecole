@@ -1,0 +1,1008 @@
+1000
+mkdir test
+rmdir test
+cat bou.txt
+cat bou.txt
+pwd
+cat bou.txt
+pwd
+ls
+cat bou.txt
+mkdir test
+rmdir test
+ls -l
+cat bou.txt
+cat bou.txt
+mkdir test
+rmdir test
+mkdir test
+pwd
+pwd
+rmdir test
+ls -l
+cat bou.txt
+cat bou.txt
+pwd
+cat bou.txt
+mkdir test
+cat bou.txt
+rmdir test
+ls -l
+mkdir test
+pwd
+cat bou.txt
+pwd
+cat bou.txt
+cat bou.txt
+cat bou.txt
+cat bou.txt
+pwd
+rmdir test
+pwd
+mkdir test
+pwd
+rmdir test
+mkdir test
+cat bou.txt
+pwd
+rmdir test
+pwd
+ls
+mkdir test
+pwd
+ls
+pwd
+cat bou.txt
+pwd
+rmdir test
+mkdir test
+cat bou.txt
+cat bou.txt
+ls
+pwd
+rmdir test
+pwd
+cat bou.txt
+mkdir test
+pwd
+cat bou.txt
+cat bou.txt
+pwd
+pwd
+cat bou.txt
+ls -l
+cat bou.txt
+pwd
+rmdir test
+pwd
+cat bou.txt
+pwd
+pwd
+mkdir test
+pwd
+ls -l
+ls -l
+pwd
+pwd
+pwd
+cat bou.txt
+pwd
+rmdir test
+ls -l
+cat bou.txt
+ls
+pwd
+ls -l
+ls -l
+cat bou.txt
+ls -l
+mkdir test
+rmdir test
+ls -l
+ls -l
+pwd
+mkdir test
+rmdir test
+pwd
+cat bou.txt
+pwd
+mkdir test
+cat bou.txt
+rmdir test
+ls -l
+mkdir test
+rmdir test
+pwd
+cat bou.txt
+pwd
+mkdir test
+rmdir test
+ls
+ls -l
+pwd
+mkdir test
+rmdir test
+cat bou.txt
+ls
+pwd
+ls -l
+mkdir test
+pwd
+rmdir test
+ls -l
+ls
+cat bou.txt
+mkdir test
+ls
+pwd
+ls
+rmdir test
+pwd
+mkdir test
+ls -l
+ls
+rmdir test
+pwd
+mkdir test
+cat bou.txt
+rmdir test
+ls
+cat bou.txt
+mkdir test
+historique
+rmdir test
+mkdir test
+rmdir test
+ls
+mkdir test
+cat bou.txt
+rmdir test
+cat bou.txt
+ls
+pwd
+pwd
+cat bou.txt
+ls -l
+cat bou.txt
+pwd
+mkdir test
+cat bou.txt
+cat bou.txt
+rmdir test
+mkdir test
+cat bou.txt
+rmdir test
+mkdir test
+cat bou.txt
+pwd
+cat bou.txt
+rmdir test
+pwd
+ls -l
+pwd
+ls
+cat bou.txt
+pwd
+ls -l
+mkdir test
+pwd
+rmdir test
+pwd
+pwd
+ls
+mkdir test
+cat bou.txt
+cat bou.txt
+rmdir test
+cat bou.txt
+pwd
+mkdir test
+rmdir test
+ls -l
+cat bou.txt
+cat bou.txt
+mkdir test
+rmdir test
+ls -l
+cat bou.txt
+mkdir test
+rmdir test
+mkdir test
+pwd
+rmdir test
+cat bou.txt
+cat bou.txt
+pwd
+cat bou.txt
+mkdir test
+rmdir test
+mkdir test
+pwd
+pwd
+pwd
+pwd
+cat bou.txt
+cat bou.txt
+rmdir test
+cat bou.txt
+ls
+ls
+ls -l
+pwd
+cat bou.txt
+pwd
+pwd
+cat bou.txt
+mkdir test
+cat bou.txt
+rmdir test
+cat bou.txt
+mkdir test
+pwd
+pwd
+rmdir test
+pwd
+cat bou.txt
+pwd
+mkdir test
+rmdir test
+ls
+cat bou.txt
+mkdir test
+cat bou.txt
+cat bou.txt
+pwd
+cat bou.txt
+cat bou.txt
+ls
+rmdir test
+mkdir test
+cat bou.txt
+ls
+pwd
+rmdir test
+cat bou.txt
+mkdir test
+ls
+ls
+ls
+rmdir test
+pwd
+pwd
+cat bou.txt
+cat bou.txt
+ls
+mkdir test
+ls -l
+ls -l
+rmdir test
+cat bou.txt
+ls
+pwd
+mkdir test
+pwd
+rmdir test
+pwd
+ls
+mkdir test
+rmdir test
+cat bou.txt
+cat bou.txt
+cat bou.txt
+cat bou.txt
+mkdir test
+rmdir test
+cat bou.txt
+pwd
+mkdir test
+pwd
+pwd
+rmdir test
+pwd
+pwd
+historique
+ls -l
+cat bou.txt
+cat bou.txt
+ls -l
+mkdir test
+cat bou.txt
+ls -l
+cat bou.txt
+ls
+ls
+ls -l
+rmdir test
+cat bou.txt
+mkdir test
+pwd
+pwd
+ls
+ls
+cat bou.txt
+rmdir test
+cat bou.txt
+pwd
+ls
+ls -l
+pwd
+ls -l
+mkdir test
+ls -l
+cat bou.txt
+pwd
+cat bou.txt
+ls -l
+pwd
+pwd
+ls
+rmdir test
+ls -l
+pwd
+pwd
+mkdir test
+pwd
+cat bou.txt
+ls
+rmdir test
+mkdir test
+cat bou.txt
+rmdir test
+pwd
+ls -l
+ls
+pwd
+cat bou.txt
+cat bou.txt
+pwd
+pwd
+cat bou.txt
+pwd
+ls
+cat bou.txt
+mkdir test
+cat bou.txt
+ls -l
+cat bou.txt
+rmdir test
+pwd
+cat bou.txt
+cat bou.txt
+cat bou.txt
+cat bou.txt
+ls
+mkdir test
+cat bou.txt
+rmdir test
+mkdir test
+ls -l
+pwd
+pwd
+rmdir test
+pwd
+pwd
+mkdir test
+cat bou.txt
+ls
+rmdir test
+pwd
+ls -l
+mkdir test
+rmdir test
+pwd
+pwd
+ls -l
+cat bou.txt
+pwd
+ls
+ls
+cat bou.txt
+cat bou.txt
+ls -l
+mkdir test
+pwd
+cat bou.txt
+rmdir test
+ls -l
+ls -l
+mkdir test
+cat bou.txt
+rmdir test
+ls
+pwd
+cat bou.txt
+ls -l
+mkdir test
+rmdir test
+pwd
+ls
+pwd
+mkdir test
+pwd
+cat bou.txt
+pwd
+rmdir test
+ls
+cat bou.txt
+cat bou.txt
+mkdir test
+ls
+cat bou.txt
+pwd
+pwd
+pwd
+rmdir test
+pwd
+pwd
+cat bou.txt
+cat bou.txt
+mkdir test
+ls -l
+pwd
+ls
+cat bou.txt
+cat bou.txt
+ls -l
+rmdir test
+mkdir test
+pwd
+ls -l
+cat bou.txt
+pwd
+ls
+cat bou.txt
+historique
+cat bou.txt
+cat bou.txt
+pwd
+ls -l
+pwd
+rmdir test
+pwd
+mkdir test
+pwd
+pwd
+pwd
+pwd
+rmdir test
+ls
+ls -l
+pwd
+mkdir test
+rmdir test
+pwd
+pwd
+cat bou.txt
+cat bou.txt
+pwd
+ls -l
+pwd
+mkdir test
+pwd
+rmdir test
+mkdir test
+cat bou.txt
+pwd
+cat bou.txt
+ls -l
+rmdir test
+pwd
+cat bou.txt
+mkdir test
+rmdir test
+pwd
+ls -l
+cat bou.txt
+pwd
+mkdir test
+rmdir test
+mkdir test
+cat bou.txt
+ls
+cat bou.txt
+rmdir test
+cat bou.txt
+pwd
+mkdir test
+ls
+ls -l
+pwd
+cat bou.txt
+pwd
+pwd
+rmdir test
+ls -l
+pwd
+mkdir test
+rmdir test
+ls
+ls -l
+ls -l
+mkdir test
+cat bou.txt
+rmdir test
+pwd
+ls
+mkdir test
+cat bou.txt
+cat bou.txt
+cat bou.txt
+pwd
+ls -l
+rmdir test
+ls -l
+ls
+cat bou.txt
+cat bou.txt
+cat bou.txt
+ls
+ls
+mkdir test
+pwd
+pwd
+cat bou.txt
+pwd
+rmdir test
+pwd
+pwd
+mkdir test
+ls
+cat bou.txt
+ls
+cat bou.txt
+pwd
+ls
+rmdir test
+cat bou.txt
+mkdir test
+cat bou.txt
+pwd
+pwd
+pwd
+rmdir test
+pwd
+mkdir test
+cat bou.txt
+cat bou.txt
+rmdir test
+mkdir test
+ls
+rmdir test
+pwd
+mkdir test
+rmdir test
+ls -l
+pwd
+cat bou.txt
+mkdir test
+cat bou.txt
+pwd
+cat bou.txt
+cat bou.txt
+rmdir test
+cat bou.txt
+cat bou.txt
+cat bou.txt
+ls -l
+cat bou.txt
+mkdir test
+rmdir test
+mkdir test
+ls
+pwd
+rmdir test
+cat bou.txt
+pwd
+pwd
+pwd
+cat bou.txt
+cat bou.txt
+cat bou.txt
+cat bou.txt
+mkdir test
+rmdir test
+cat bou.txt
+historique
+cat bou.txt
+cat bou.txt
+mkdir test
+cat bou.txt
+ls
+pwd
+rmdir test
+ls
+ls
+mkdir test
+cat bou.txt
+cat bou.txt
+rmdir test
+mkdir test
+pwd
+pwd
+rmdir test
+pwd
+mkdir test
+cat bou.txt
+rmdir test
+pwd
+mkdir test
+rmdir test
+mkdir test
+ls -l
+cat bou.txt
+cat bou.txt
+ls -l
+pwd
+pwd
+pwd
+ls -l
+ls -l
+cat bou.txt
+ls
+pwd
+pwd
+pwd
+pwd
+ls -l
+ls -l
+rmdir test
+ls -l
+ls -l
+cat bou.txt
+pwd
+ls
+cat bou.txt
+mkdir test
+ls
+pwd
+rmdir test
+mkdir test
+ls -l
+cat bou.txt
+ls -l
+ls -l
+cat bou.txt
+cat bou.txt
+pwd
+pwd
+cat bou.txt
+pwd
+pwd
+pwd
+ls
+pwd
+cat bou.txt
+rmdir test
+ls
+mkdir test
+ls -l
+cat bou.txt
+ls
+pwd
+rmdir test
+ls
+pwd
+ls
+mkdir test
+rmdir test
+ls
+cat bou.txt
+mkdir test
+pwd
+pwd
+cat bou.txt
+ls -l
+cat bou.txt
+pwd
+cat bou.txt
+ls
+rmdir test
+mkdir test
+pwd
+cat bou.txt
+rmdir test
+cat bou.txt
+ls -l
+pwd
+pwd
+cat bou.txt
+cat bou.txt
+ls
+pwd
+cat bou.txt
+mkdir test
+ls -l
+pwd
+ls
+cat bou.txt
+ls -l
+ls -l
+pwd
+rmdir test
+ls
+ls -l
+pwd
+mkdir test
+cat bou.txt
+cat bou.txt
+cat bou.txt
+ls
+rmdir test
+cat bou.txt
+cat bou.txt
+ls
+ls -l
+mkdir test
+cat bou.txt
+rmdir test
+mkdir test
+cat bou.txt
+rmdir test
+pwd
+cat bou.txt
+cat bou.txt
+pwd
+cat bou.txt
+mkdir test
+cat bou.txt
+pwd
+rmdir test
+mkdir test
+pwd
+rmdir test
+cat bou.txt
+pwd
+cat bou.txt
+historique
+mkdir test
+cat bou.txt
+pwd
+cat bou.txt
+pwd
+ls
+cat bou.txt
+ls -l
+rmdir test
+pwd
+pwd
+cat bou.txt
+ls
+ls
+pwd
+pwd
+pwd
+cat bou.txt
+cat bou.txt
+mkdir test
+rmdir test
+mkdir test
+pwd
+ls -l
+ls
+rmdir test
+cat bou.txt
+cat bou.txt
+ls
+mkdir test
+pwd
+rmdir test
+pwd
+cat bou.txt
+pwd
+mkdir test
+pwd
+ls
+cat bou.txt
+rmdir test
+cat bou.txt
+ls
+pwd
+mkdir test
+rmdir test
+mkdir test
+rmdir test
+ls
+cat bou.txt
+pwd
+pwd
+mkdir test
+rmdir test
+ls
+pwd
+cat bou.txt
+pwd
+mkdir test
+rmdir test
+mkdir test
+pwd
+cat bou.txt
+rmdir test
+ls -l
+cat bou.txt
+cat bou.txt
+pwd
+pwd
+pwd
+cat bou.txt
+pwd
+pwd
+ls -l
+ls -l
+mkdir test
+cat bou.txt
+rmdir test
+cat bou.txt
+pwd
+cat bou.txt
+pwd
+mkdir test
+rmdir test
+ls -l
+cat bou.txt
+pwd
+mkdir test
+ls -l
+rmdir test
+pwd
+pwd
+cat bou.txt
+mkdir test
+rmdir test
+ls -l
+mkdir test
+ls -l
+ls
+ls
+cat bou.txt
+pwd
+cat bou.txt
+pwd
+pwd
+cat bou.txt
+pwd
+pwd
+cat bou.txt
+rmdir test
+pwd
+ls -l
+cat bou.txt
+cat bou.txt
+ls
+mkdir test
+rmdir test
+cat bou.txt
+cat bou.txt
+cat bou.txt
+mkdir test
+ls
+ls -l
+rmdir test
+cat bou.txt
+cat bou.txt
+ls
+cat bou.txt
+ls
+pwd
+pwd
+ls -l
+pwd
+ls
+ls -l
+cat bou.txt
+cat bou.txt
+ls -l
+mkdir test
+rmdir test
+pwd
+cat bou.txt
+ls
+ls -l
+mkdir test
+ls
+ls -l
+ls -l
+ls
+ls
+cat bou.txt
+historique
+pwd
+ls -l
+rmdir test
+ls -l
+cat bou.txt
+cat bou.txt
+ls
+mkdir test
+ls
+pwd
+rmdir test
+ls
+cat bou.txt
+cat bou.txt
+cat bou.txt
+cat bou.txt
+ls -l
+mkdir test
+cat bou.txt
+pwd
+cat bou.txt
+pwd
+rmdir test
+mkdir test
+pwd
+cat bou.txt
+pwd
+ls
+rmdir test
+ls -l
+pwd
+pwd
+pwd
+cat bou.txt
+ls
+cat bou.txt
+cat bou.txt
+ls
+ls -l
+ls
+ls
+ls -l
+cat bou.txt
+pwd
+ls -l
+ls -l
+mkdir test
+rmdir test
+mkdir test
+pwd
+pwd
+ls -l
+cat bou.txt
+cat bou.txt
+pwd
+pwd
+ls -l
+ls
+ls
+ls
+rmdir test
+pwd
+mkdir test
+cat bou.txt
+pwd
+cat bou.txt
+pwd
+pwd
+pwd
+rmdir test
+pwd
+ls -l
+mkdir test
+ls -l
+cat bou.txt
+pwd
+rmdir test
+ls
+cat bou.txt
+ls
+cat bou.txt
+pwd
+pwd
+mkdir test
+cat bou.txt
+pwd
+pwd
+ls
+ls -l
+pwd
+ls -l
+rmdir test
+mkdir test
+pwd
+cat bou.txt
+rmdir test
+ls
+mkdir test
+ls -l
+pwd
+exit

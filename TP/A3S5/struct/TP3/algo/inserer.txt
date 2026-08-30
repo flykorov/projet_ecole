@@ -1,0 +1,84 @@
+# TP3 fonction inserer
+# Victor Bouvier d'Acher
+# Geoffroy Rodriguez
+
+
+Procedure inserer(d i, num : N)
+{
+	on a utiliser une fonction inserer dans notre programme
+	cette fonction va vérifier plusieur chose
+	tout d'abord il va inserer un chiffre a la place d'un NIL si possible
+	sinon il va rajouter une case au tableau puis rajouter un NIL de l'autre cote
+	bien sur si c'est le max qui change il va se retrouver du bon cote et etre equilibrer avec un NIL de l'autre cote
+
+	Exemple 1:
+	tab[7] = {NIL, NIL, 20, 100, 97, 65, 33}
+	si on rajoute 40 le tableau devient
+	tab[7] = {NIL, 20, 40, 100, 97, 65, 33}
+	aucune case du tableau n'est a ajouter on a juste remplacer une case NIL
+
+	Exemple 2:
+	tab[7] = {NIL, NIL, 20, 100, 97, 65, 33}
+	si on rajoute 11 le tableau devient
+	tab[7] = {NIL, NIL, NIL, 20, 100, 97, 65, 33, 11}
+	on a rajouter 2 case au tableau une a gauche (NIL) une a droite (11) pour que le max soit au milieu
+
+	on assume que la fonction est lineaire (append en C++ est lineaire)
+}
+
+
+Procedure inserer_num(d taille_tableau, tableau[taille_tableau], valeur_inserer : N)
+{...}
+
+
+Var arret : N  				# condition d'arret de la boucle
+Var it : N 					# incremente ou decremente l'iterateur
+Var debut : N  				# case du tableau lors du debut de recherche
+
+Début
+	debut  := taille_tableau/2				# debute l'iteration au milieu du tableau
+	si valeur_rechercer % 2 = 0 faire		# determine si le nombre recherchee est pair ou impair
+		arret := 0
+		it := -1							
+	sinon
+		arret := taille tableau
+		it := 1
+	Fin si
+
+	si valeur_inserer > tableau[debut] faire			# verifie si la valeur est plus grande que le max
+		si tableau[debut] % 2 = 0 faire					# verifie si c'est pair ou impair
+			tableau.inserer(debut+1, valeur_inserer)
+		sinon											# impair
+			tableau.inserer(debut, valeur_inserer)
+		fin si
+	sinon
+ 		tant que debut != arret faire					# parcours le tableau
+			si tableau[debut] = NIL faire
+				debut := arret 								# arret du while si la valeur du tableau est vide
+				tableau.inserer(debut, valeur_inserer)		# insere la valeur a la place du NIL
+			sinon	
+				si tableau[debut] <= valeur_inserer faire					
+					tableau.inserer(debut, valeur_inserer)					# insere la valeur au bon endroit avec equilibrage si besoin
+					debut := d'arret										# arret du while
+				Fin si
+			Fin si
+			debut := debut + it
+		Fin tant que
+		tableau.inserer(debut, valeur_inserer)		# insere la valeur au debut ou a la fin avec equilibrage si besoin
+	fin si
+Fin
+
+
+
+Compexiter de l'algorithme : O(n) étant la compexite lineaire de la fonction inserer  
+
+meilleur	# on s'arrete au premier si du while
+9C + O(n)
+
+moyen		# on divuse le while du pire cas par 2
+8C + (n/4)*3C + O(n)
+
+pire  		# on passe tout le while sans s'arreter 
+8C + (n/2)*3C + O(n)
+
+la compexite de l'algorithme est donc linéaire O(n)

@@ -1,0 +1,96 @@
+Q1
+
+Q2
+	ps : affiche les processus en cours
+	pid : identifiant du processus
+	ppid : PID du processus parent
+	pri : priorité du processus
+	state : affichage d'état minimal
+	tty : terminal de controle
+	args : tout les argument sous forme de chaine
+	stime : time
+	
+	-u : user
+	-o : 
+
+ CODES D'ÉTAT DE PROCESSUS
+       Voici les différentes valeurs que les indicateurs de sortie s, stat et state (en-tête « STAT » ou « S ») afficheront pour décrire l'état d'un processus :
+
+               D    en sommeil non interruptible (normalement entrées et sorties) ;
+               I    fil inactif du noyau ;
+               R    s'exécutant ou pouvant s'exécuter (dans la file d'exécution) ;
+               S    en sommeil interruptible (en attente d'un événement pour finir) ;
+               T    arrêté par le signal de contrôle de la tâche ;
+               t    arrêté par le débogueur lors du traçage ;
+               W    pagination (non valable depuis le noyau 2.6.xx) ;
+               X    tué (ne devrait jamais être vu) ;
+               Z    processus zombie (<defunct>), terminé mais pas détruit par son parent.
+               
+Q3
+	voir capture d'écran
+
+Q4
+	lance un programme while true vide
+
+Q5
+	7154    6178  19 S pts/3    02:09 ./programme1.exe
+
+Q6
+
+victor@victor-G5-5590:~$ ./programme1.exe
+^Z
+[1]+  Arrêté                ./programme1.exe
+
+Q7
+	7154    6178  19 T pts/3    02:09 ./programme1.exe
+	
+	S est devenu T
+	il est passé de l'état en sommeil interuptible à arreter par le signal de controle de la tache
+	ctrl-z permet d'interompre une tache,
+	non car pid n'a pas bouger.
+
+Q8
+
+victor@victor-G5-5590:~$ fg
+./programme1.exe
+
+Q9
+	7154    6178  19 S pts/3    02:09 ./programme1.exe
+	
+	il est passer de T à S
+
+Q10
+	[1] 7383
+	
+Q11
+	7469    6165  19 S pts/2    02:26 ./programme2.exe
+	7470    7469  19 S pts/2    02:26 ./programme2.exe
+
+	
+	il y a 2 processus puisque qu'il s'agit d'un fork
+	
+	il s'agit du même processus
+	le ppid de la deuxième ligne est le même que celui de la première
+	
+Q12
+	7469    6165  19 S pts/2    02:26 ./programme2.exe
+	7470    7469  19 Z pts/2    02:26 [programme2.exe] <defunct>
+
+	
+	le fils est passer en defunct
+	
+Q13
+	non
+	kill tue le pid en l'enlevant du ps (cf X)
+
+Q14
+	ctrl-c
+	
+
+
+
+
+
+	
+
+
