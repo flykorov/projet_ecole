@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="memory.css">
+		<title>memory</title>
+	</head>
+	<body>
+
+		<div class="rectangle">
+			<div class="texte">Memory Game</div>
+			<div class="keur" style="display: none;">
+            	<img id="i3" class="image" src="image/coeur.jpeg">
+            	<img id="i2" class="image" src="image/coeur.jpeg">
+            	<img id="i1" class="image" src="image/coeur.jpeg">
+    		</div>
+
+			<div id="timer2"></div>
+			<div id="bonne"></div>
+			<div id="mauvaise"></div>
+			
+			<div class="rectangle">
+            	<div class="rectangle2">
+            	<div class="texte">Configuration</div>
+            	<div class="config">
+                	<input type ="text" id="size" name="size" placeholder="size" value=""/>
+                	<input type ="text" id="timer" name="timer" placeholder="timer" value=""/>
+                	<button class="btn" id="submit" onclick="showButtons()">Play</button>
+            	</div>
+        	</div>
+
+        	
+
+			<div class="top-buttons" style="display: none;">
+				<button class="btn" id="btn2" onclick="restartv2()">Restart</button>
+			</div>
+			<ul id="game" class="flex-container"></ul>
+
+			<div class="rectangle3", style="display: none;">
+				<div class="texte">ez win</div>
+			</div>
+
+			<div class="rectangle4", style="display: none;">
+				<div class="texte">noob</div>
+			</div>
+			
+		</div>
+	</div>
+
+		
+
+		<script src="memory.js"></script>
+
+	</body>
+</html>

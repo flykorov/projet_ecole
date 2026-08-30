@@ -1,0 +1,56 @@
+<!-- <ul class="flex-container">
+				<li class="flex-item">
+					<button class="btn" id="btn1" onclick="image(0)">
+					<img class="image" id="0" src="" >
+					</button>
+				</li>
+				<li class="flex-item">
+					<button class="btn" id="btn1" onclick="image(1)">
+					<img class="image" id="1" src="" >
+					</button>
+				</li>
+				<li class="flex-item">
+					<button class="btn" id="btn1" onclick="image(2)">
+					<img class="image" id="2" src="" >
+					</button>
+				</li>
+
+				<li class="flex-item">
+					<button class="btn" id="btn1" onclick="image(3)">
+					<img class="image" id="3" src="" >
+					</button>
+				</li>
+
+				<li class="flex-item">
+					<button class="btn" id="btn1" onclick="image(4)">
+					<img class="image" id="4" src="" >
+					</button>
+				</li>
+
+				<li class="flex-item">
+					<button class="btn" id="btn1" onclick="image(5)">
+					<img class="image" id="5" src="" >
+					</button>
+				</li>
+				<li class="flex-item">
+					<button class="btn" id="btn1" onclick="image(6)">
+					<img class="image" id="6" src="" >
+					</button>
+				</li>
+				<li class="flex-item">
+					<button class="btn" id="btn1" onclick="image(7)">
+					<img class="image" id="7" src="" >
+					</button>
+				</li>
+				<li class="flex-item">
+					<button class="btn" id="btn1" onclick="image(8)">
+					<img class="image" id="8" src="" >
+					</button>
+				</li>
+				<li class="flex-item">
+					<button class="btn" id="btn1" onclick="image(9)">
+					<img class="image" id="9" src="" >
+					</button>
+				</li>
+			</ul>
+		</div> -->

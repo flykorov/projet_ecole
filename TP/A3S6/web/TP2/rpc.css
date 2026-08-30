@@ -1,0 +1,41 @@
+.btn
+{
+    height: 50px;
+    color: white; 
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 1s;
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.btn:hover
+{
+    transition: background-color 2s;
+}
+
+#btn1
+{
+    background-color: lightgreen;
+}
+#btn1:hover
+{
+    background-color: green;
+}
+#btn2
+{
+    background-color: lightblue;
+}
+#btn2:hover
+{
+    background-color: blue;
+}
+#btn3
+{
+    background-color: darkred;
+}
+#btn3:hover
+{
+    background-color: red;
+}
