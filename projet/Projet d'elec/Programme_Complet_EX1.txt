@@ -1,0 +1,61 @@
+const int btnPin = 8;
+const int led1Pin = 9;
+const int led2Pin = 10;
+const int led3Pin = 11;
+
+int etat_bouton;
+
+int nombre_led = 0;
+
+int memoire = HIGH;
+
+void setup()
+{
+ pinMode(btnPin, INPUT);
+ pinMode(led1Pin, OUTPUT);
+ pinMode(led2Pin, OUTPUT);
+ pinMode(led3Pin, OUTPUT);
+}
+
+void loop()
+{
+  etat_bouton = digitalRead(btnPin);
+  if((etat_bouton != memoire) && (etat_bouton == LOW))
+  {
+    nombre_led++;
+  }
+  memoire = etat_bouton;
+
+  etat_bouton = etat_bouton %5;
+
+  if(etat_bouton < 0)
+  {
+     pinMode(led1Pin, LOW);
+     pinMode(led2Pin, LOW);
+     pinMode(led3Pin, LOW);
+  }
+  if(etat_bouton < 1)
+  {
+     pinMode(led1Pin, HIGH);
+     pinMode(led2Pin, LOW);
+     pinMode(led3Pin, LOW);
+  }
+  if(etat_bouton < 2)
+  {
+     pinMode(led1Pin, LOW);
+     pinMode(led2Pin, HIGH);
+     pinMode(led3Pin, LOW);
+  }
+  if(etat_bouton < 3)
+  {
+     pinMode(led1Pin, LOW);
+     pinMode(led2Pin, LOW);
+     pinMode(led3Pin, HIGH);
+  }
+  if(etat_bouton < 4)
+  {
+     pinMode(led1Pin, HIGH);
+     pinMode(led2Pin, HIGH);
+     pinMode(led3Pin, HIGH);
+  }
+}

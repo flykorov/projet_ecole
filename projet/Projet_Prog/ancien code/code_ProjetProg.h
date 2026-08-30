@@ -1,0 +1,8 @@
+int MODE_DIF()
+int** INI_TAB_BI()
+void CHARG_MAT_ORDER(int** ORDER_TAB)
+void CHARG_MAT_NUM(int** NUM_IN_GAME)
+void AFFICH_MAT_ORDER(int** ORDER_TAB)
+void AFFICH_MAT_NUM(int** NUM_IN_GAME)
+void LIB_MAT_ORDER(int** ORDER_TAB)
+void LIB_MAT_NUM(int** NUM_IN_GAME)

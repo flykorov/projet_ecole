@@ -1,0 +1,38 @@
+/* Styles de base */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Conteneur de l'image */
+.image-container {
+  position: relative;
+  display: inline-block;
+  max-width: 100%; /* pour rendre l'image responsive */
+}
+
+/* Image */
+.image-container img {
+  width: 100%;
+  height: auto; /* L'image sera responsive */
+  display: block;
+}
+
+/* Bouton */
+.image-button {
+  position: absolute;
+  top: 50%; /* Ajuste selon l'endroit souhaité, ici centré verticalement */
+  left: 50%; /* Ajuste selon l'endroit souhaité, ici centré horizontalement */
+  transform: translate(-50%, -50%); /* Pour centrer parfaitement */
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.image-button:hover {
+  background-color: #0056b3;
+}

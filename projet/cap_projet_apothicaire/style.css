@@ -1,0 +1,68 @@
+header {
+
+	display:flex;
+}
+
+body {
+    display: flex;
+    background-color: rgb(48, 129, 228);
+    flex-direction: column;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+    color: white;
+    max-width: 600px;
+    margin: 0 auto;
+    height: 100vh;
+}
+h1{
+    color: white;
+}
+
+.bloc {
+	flex-direction: row ;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+#zoneDeDepot:hover {
+    background-color: lightblue; /* Couleur à appliquer lors du survol */
+}
+#zoneDeDepot {
+    width: 125px;
+    height: 100px;
+    color: white;
+    border: 2px dashed #ccc;
+    background-color: rgb(165, 165, 175);
+    text-align: center;
+    padding: 20px;
+    margin: 50px auto;
+    line-height: 100px; /* Hauteur de la zone pour centrer le texte */
+}
+#montexte{
+   
+    resize: none;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 2px; /* Ajustez la valeur de la marge intérieure selon vos préférences */
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 12px; /* Ajustez la taille de la police selon vos préférences */
+}
+
+#rep {
+    color: white; /* Couleur du texte */
+    background-color: red; /* Couleur de fond (optionnelle) */
+    /* Ajoutez d'autres propriétés CSS au besoin */
+    justify-content: space-between;
+    visibility: hidden;
+}
+
+.space {
+    margin-bottom: 10px; /* Ajoute 10 pixels d'espace en bas */
+}

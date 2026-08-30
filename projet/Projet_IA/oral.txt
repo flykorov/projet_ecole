@@ -1,0 +1,25 @@
+train test split : outil d'entrainement
+
+train_test_split (*arrays, test_size=None, train_size=None, random_state=None, shuffle=True, stratify=None)
+
+argument : tableau avec les valeurs a tester
+
+test_size : entre 0 et 1 representel a propoetion de dataset a inclure dans le test / None = 0.25
+
+train_size = entre 0 et 1 represente la proportion du dataset a inclure dans le train / None = complement du test_size
+
+random_state,
+shuffle,
+stratify	 verifie si on doit melangé on ordonné le dataset
+
+il renvoie le train et le test de chaque tableau
+
+sublpots permet de creer des figures
+ 
+on doit aplatir les images pour pouvoir diviser le data dans le train et le test 
+
+permet de créer un vector pour classifier 
+SVC(*, C=1.0, kernel='rbf', degree=3, gamma='scale', coef0=0.0, shrinking=True, probability=False, tol=0.001, cache_size=200, class_weight=None, verbose=False, max_iter=-1, decision_function_shape='ovr', break_ties=False, random_state=None)[source]¶
+
+fit permet d'apprendre les valeur de train
+predict permet de predir les valeur du test

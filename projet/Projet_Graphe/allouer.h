@@ -1,0 +1,15 @@
+int** alloue_mat(struct donne* donner);
+int** allouer_mat(int nbl, int nbc);
+float** allouer_mat_float(int nbl, int nbc);
+char** allouer_mat_char(int nbl, int nbc);
+int* allouer_tab(int nb);
+struct prems* alloue_struct(struct prems* lacrimatica, struct donne* donner);
+struct prems* creer_prems(struct donne* donner);
+struct init_comp* creer_init_comp();
+void alloue_comp(struct init_comp* pourquoi, int** dico, int nb_char);
+struct init_poids_min* creer_poids_min(struct init_poids_min* str_poids_min, struct donne* donner);
+struct init_poids_min* creer_init_poids_min(struct donne* donner);
+void reint_fic_cod(char* s);
+void reint_fic(char* s);
+struct donne* allouer_donne();
+void mat_neg1(int** mat, int nbl, int nbc);

@@ -1,0 +1,10 @@
+void lib_lettre(struct arbre* mec);
+void lib_mec(struct arbre* mec);
+void lib_pourquoi(struct init_comp* pourquoi);
+void lib_struct(struct prems* lacrimatica);
+void lib_poids_min(struct init_poids_min* str_poids_min);
+void lib_tab(int* tab);
+void liber_mat_float(float** mat, int nbl);
+void liber_mat(int** mat, int nbl);
+void lib_mat(int** mat, struct donne* donner);
+void liber_mat_char(char** mat, int nbl);

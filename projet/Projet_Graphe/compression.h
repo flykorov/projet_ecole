@@ -1,0 +1,1 @@
+void cree_fic(struct prems* lacrimatica, int** con_final, struct donne* donner);

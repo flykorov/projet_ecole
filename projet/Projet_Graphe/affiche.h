@@ -1,0 +1,14 @@
+void affiche_lettre(struct arbre* mec);
+void affiche_mec(struct arbre* mec);
+void affiche_arbre(struct init_comp* pourquoi);
+void affiche_poids_min(struct init_poids_min* ouaient);
+void affiche_poids(float** poids, int nbl, int nbc);
+void affiche_distance(struct prems* lacrimatica);
+void affiche_coor(struct prems* lacrimatica);
+void affiche_carte(int** carte, struct donne* donner);
+void affiche_comp(struct init_comp* pourquoi);
+void affiche_dico(int** dico, int nb_char);
+void affiche_sequence_codee(int** bin, int nb_char);
+void affiche_tri_poids(int** pdf, float* con_depart);
+void affiche_new_tri_poids(int** con_mil, float* dis_mil);
+void affiche_rep_poids_min(float* dis_fin, int** con_final);

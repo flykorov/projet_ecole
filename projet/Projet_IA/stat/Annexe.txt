@@ -1,0 +1,90 @@
+Vous pouvez également voir les explications en maintenant la souris sur les têtes de colonne
+Nation -- Nationalité du joueur.
+Tout d'abord, nous vérifions nos archives de matchs internationaux au niveau senior.
+Ensuite au niveau jeune.
+Puis la citoyenneté présentée sur wikipedia.
+Et enfin, nous utilisons leur lieu de naissance lorsqu'il est disponible.
+Pos -- Position la plus souvent occupée par le joueur
+GB - Gardiens de but
+DF - Défenseurs
+MT - Milieux de terrain
+AT - Attaquants
+AC - Défenseurs latéraux
+AG - Arrières gauches
+AD - Arrières droits
+DC - Défenseurs centraux
+MD - Milieux défensifs
+MC - Milieux axiaux
+MG - Milieux gauches
+MD - Milieux droits
+ME - Milieux excentrés
+AlG - Ailiers gauches
+AlD - Ailiers droits
+MO - Milieux offensifs
+Âge -- Âge au début de la saison
+Donné le 1er août pour les championnats hivernaux
+et le 1er février pour les championnats estivaux.
+Temps de jeu
+MJ -- Matches joués par le joueur ou l'équipe
+Titulaire -- Match ou matchs débutés par le joueurs
+90 -- 90 jouées
+Minutes jouées divisées par 90
+Performance
+Buts -- Buts marqués ou attribués
+PD -- Passes décisives
+B-PénM -- Buts (sans les pénaltys)
+PénM -- Pénaltys marqués
+PénT -- Pénaltys tirés
+CJ -- Cartons jaunes
+CR -- Cartons rouges
+Par 90 minutes
+Buts -- Buts marqués par 90 minutes
+Minimum 30 minutes jouées par match d'équipe pour apparaître en tant que leader
+PD -- Passes décisives par 90 minutes
+Minimum 30 minutes jouées par match d'équipe pour apparaître en tant que leader
+B+PD -- Buts et passes décisives par 90 minutes
+Minimum 30 minutes jouées par match d'équipe pour apparaître en tant que leader
+B-PénM -- Buts moins les pénaltys marqués par 90 minutes
+Minimum 30 minutes jouées par match d'équipe pour apparaître en tant que leader
+B+PD-PénM -- Buts plus passes décisives moins pénaltys marqués par 90 minutes
+Minimum 30 minutes jouées par match d'équipe pour apparaître en tant que leader
+Attendu
+xG -- Buts attendus
+xG totaux avec les penaltys, mais sans les tirs au buts (sauf indication contraire).
+Fournies par StatsBomb.
+Si la valeur est soulignée, cela indique qu'il y a un résultat pour lequel il manque des données, mais qui sera mis à jour lorsqu'il sera disponible.
+npxG -- Buts sans pénaltys attendus
+Fournies par StatsBomb.
+Si la valeur est soulignée, cela indique qu'il y a un résultat pour lequel il manque des données, mais qui sera mis à jour lorsqu'il sera disponible.
+xA -- xG avec passe décisive
+xG qui suit une passe qui permet un tir
+Fournies par StatsBomb.
+Si la valeur est soulignée, cela indique qu'il y a un résultat pour lequel il manque des données, mais qui sera mis à jour lorsqu'il sera disponible.
+npxG+xA -- Buts attendus (excepté les pénaltys) plus xG avec passe décisive
+xG totaux avec les penaltys, mais sans les tirs au buts (sauf indication contraire).
+Fournies par StatsBomb.
+Si la valeur est soulignée, cela indique qu'il y a un résultat pour lequel il manque des données, mais qui sera mis à jour lorsqu'il sera disponible.
+Minimum 30 minutes jouées par match d'équipe pour apparaître en tant que leader
+Par 90 minutes
+xG -- Buts attendus par 90 minutes
+xG totaux avec les penaltys, mais sans les tirs au buts (sauf indication contraire).
+Fournies par StatsBomb.
+Si la valeur est soulignée, cela indique qu'il y a un résultat pour lequel il manque des données, mais qui sera mis à jour lorsqu'il sera disponible.
+Minimum 30 minutes jouées par match d'équipe pour apparaître en tant que leader
+xA -- xG avec passe décisive par 90 minutes
+Fournies par StatsBomb.
+Si la valeur est soulignée, cela indique qu'il y a un résultat pour lequel il manque des données, mais qui sera mis à jour lorsqu'il sera disponible.
+Minimum 30 minutes jouées par match d'équipe pour apparaître en tant que leader
+xG+xA -- Buts plus passes décisives attendus par 90 minutes
+xG totaux avec les penaltys, mais sans les tirs au buts (sauf indication contraire).
+Fournies par StatsBomb.
+Si la valeur est soulignée, cela indique qu'il y a un résultat pour lequel il manque des données, mais qui sera mis à jour lorsqu'il sera disponible.
+Minimum 30 minutes jouées par match d'équipe pour apparaître en tant que leader
+npxG -- Buts dans pénaltys par 90 minutes
+Fournies par StatsBomb.
+Si la valeur est soulignée, cela indique qu'il y a un résultat pour lequel il manque des données, mais qui sera mis à jour lorsqu'il sera disponible.
+Minimum 30 minutes jouées par match d'équipe pour apparaître en tant que leader
+npxG+xA -- Buts attendus (excepté les pénaltys) plus xG avec passe décisive par 90 minutes
+Fournies par StatsBomb.
+Si la valeur est soulignée, cela indique qu'il y a un résultat pour lequel il manque des données, mais qui sera mis à jour lorsqu'il sera disponible.
+Minimum 30 minutes jouées par match d'équipe pour apparaître en tant que leader
