@@ -1,0 +1,15 @@
+//int init_window(SDL_Window** window, int x, int y, int l, int h, char titre[20]);
+//int init_renderer(SDL_Renderer** renderer, SDL_Window* window);
+struct compagnie* creer_avion_dec(struct compagnie* comp);
+struct compagnie* creer_avion_att(struct compagnie* comp);
+struct aeroport* creer_avion(struct aeroport* poport);
+struct aeroport* creer_compagnie(struct aeroport* poport);
+struct aeroport* creer_aero();
+void voir_avion_comp(struct aeroport* poport);
+struct compagnie* liste_noire(struct aeroport* poport, int* enl);
+void voir_avion_attente_dec(struct aeroport* poport);
+void voir_avion_attente_att(struct aeroport* poport);
+struct aeroport* deroulement_evenement(struct aeroport* poport, FILE *fichier);
+void lib_avion(struct compagnie *comp);
+void lib_compagnie(struct aeroport *poport);
+void lib_aeorport(struct aeroport *poport);
