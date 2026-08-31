@@ -1,0 +1,2 @@
+je suis le fils et mon PID est 10303
+je suis le pere et mon PID est 10302
