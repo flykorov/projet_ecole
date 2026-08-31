@@ -1,0 +1,2990 @@
+server(started, 1710067684).
+server(stopped, 1710067708).
+server(started, 1710067709).
+/*Sun Mar 10 11:51:23 2024*/ request(1, 1710067883.387, [peer(ip(127,0,0,1)),method(options),request_uri('/action'),path('/action'),http_version(1-1),host(localhost),port(8081),connection('keep-alive'),access_control_request_method('PUT'),access_control_request_headers('content-type'),origin('http://localhost:9000'),user_agent('Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'),sec_fetch_mode(cors),sec_fetch_site('same-site'),sec_fetch_dest(empty),referer('http://localhost:9000/')]).
+completed(1, 0.025535225, 0, 200, ok).
+/*Sun Mar 10 11:51:23 2024*/ request(2, 1710067883.396, [peer(ip(127,0,0,1)),method(put),request_uri('/action'),path('/action'),http_version(1-1),host(localhost),port(8081),connection('keep-alive'),content_length(1781),sec_ch_ua('"Chromium";v="122", "Not(A:Brand";v="24", "Brave";v="122"'),sec_ch_ua_platform('"Linux"'),sec_ch_ua_mobile('?0'),user_agent('Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'),content_type('application/json'),sec_gpc('1'),origin('http://localhost:9000'),sec_fetch_site('same-site'),sec_fetch_mode(cors),sec_fetch_dest(empty),referer('http://localhost:9000/')]).
+_{ beliefs:_{ certain_eternals:_{ cells:[ _{x:0,y:0},
+					  _{x:1,y:0},
+					  _{x:2,y:0},
+					  _{x:3,y:0},
+					  _{x:4,y:0},
+					  _{x:5,y:0},
+					  _{x:0,y:1},
+					  _{x:1,y:1},
+					  _{x:2,y:1},
+					  _{x:3,y:1},
+					  _{x:4,y:1},
+					  _{x:5,y:1},
+					  _{x:0,y:2},
+					  _{x:1,y:2},
+					  _{x:2,y:2},
+					  _{x:3,y:2},
+					  _{x:4,y:2},
+					  _{x:5,y:2},
+					  _{x:0,y:3},
+					  _{x:1,y:3},
+					  _{x:2,y:3},
+					  _{x:3,y:3},
+					  _{x:4,y:3},
+					  _{x:5,y:3},
+					  _{x:0,y:4},
+					  _{x:1,y:4},
+					  _{x:2,y:4},
+					  _{x:3,y:4},
+					  _{x:4,y:4},
+					  _{x:5,y:4},
+					  _{x:0,y:5},
+					  _{x:1,y:5},
+					  _{x:2,y:5},
+					  _{x:3,y:5},
+					  _{x:4,y:5},
+					  _{x:5,y:5}
+					],
+				  eat_exit:_{c:_{x:1,y:1},e:_{id:exit}},
+				  eat_walls:[ _{ c:_{x:5,y:5},
+						 w:_{id:wall20}
+					       },
+					      _{ c:_{x:4,y:5},
+						 w:_{id:wall19}
+					       },
+					      _{ c:_{x:3,y:5},
+						 w:_{id:wall18}
+					       },
+					      _{ c:_{x:2,y:5},
+						 w:_{id:wall17}
+					       },
+					      _{ c:_{x:1,y:5},
+						 w:_{id:wall16}
+					       },
+					      _{ c:_{x:0,y:5},
+						 w:_{id:wall15}
+					       },
+					      _{ c:_{x:5,y:4},
+						 w:_{id:wall14}
+					       },
+					      _{ c:_{x:0,y:4},
+						 w:_{id:wall13}
+					       },
+					      _{ c:_{x:5,y:3},
+						 w:_{id:wall12}
+					       },
+					      _{ c:_{x:0,y:3},
+						 w:_{id:wall11}
+					       },
+					      _{ c:_{x:5,y:2},
+						 w:_{id:wall10}
+					       },
+					      _{ c:_{x:0,y:2},
+						 w:_{id:wall9}
+					       },
+					      _{ c:_{x:5,y:1},
+						 w:_{id:wall8}
+					       },
+					      _{ c:_{x:0,y:1},
+						 w:_{id:wall7}
+					       },
+					      _{ c:_{x:5,y:0},
+						 w:_{id:wall6}
+					       },
+					      _{ c:_{x:4,y:0},
+						 w:_{id:wall5}
+					       },
+					      _{ c:_{x:3,y:0},
+						 w:_{id:wall4}
+					       },
+					      _{ c:_{x:2,y:0},
+						 w:_{id:wall3}
+					       },
+					      _{ c:_{x:1,y:0},
+						 w:_{id:wall2}
+					       },
+					      _{ c:_{x:0,y:0},
+						 w:_{id:wall1}
+					       }
+					    ]
+				},
+	      certain_fluents:_{ alive:[_{id:hunter}],
+				 dir:[_{d:north,h:_{id:hunter}}],
+				 fat_gold:[],
+				 fat_hunter:_{ c:_{x:1,y:1},
+					       h:_{id:hunter}
+					     },
+				 game_state:running,
+				 has_arrow:[ _{ a:_{id:arrow1},
+						h:_{id:hunter}
+					      }
+					   ],
+				 has_gold:[],
+				 score:0,
+				 visited:[]
+			       },
+	      step:0,
+	      uncertain_eternals:_{eat_pit:[],eat_wumpus:[]},
+	      uncertain_fluents:_{fatal:[]}
+	    },
+   percepts:[]
+ }
+completed(2, 0.05904780800000001, 2628, 200, ok).
+/*Sun Mar 10 11:51:24 2024*/ request(3, 1710067884.577, [peer(ip(127,0,0,1)),method(put),request_uri('/action'),path('/action'),http_version(1-1),host(localhost),port(8081),connection('keep-alive'),content_length(2050),sec_ch_ua('"Chromium";v="122", "Not(A:Brand";v="24", "Brave";v="122"'),sec_ch_ua_platform('"Linux"'),sec_ch_ua_mobile('?0'),user_agent('Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'),content_type('application/json'),sec_gpc('1'),origin('http://localhost:9000'),sec_fetch_site('same-site'),sec_fetch_mode(cors),sec_fetch_dest(empty),referer('http://localhost:9000/')]).
+_{ beliefs:_{ certain_eternals:_{ cells:[ _{x:0,y:0},
+					  _{x:1,y:0},
+					  _{x:2,y:0},
+					  _{x:3,y:0},
+					  _{x:4,y:0},
+					  _{x:5,y:0},
+					  _{x:0,y:1},
+					  _{x:1,y:1},
+					  _{x:2,y:1},
+					  _{x:3,y:1},
+					  _{x:4,y:1},
+					  _{x:5,y:1},
+					  _{x:0,y:2},
+					  _{x:1,y:2},
+					  _{x:2,y:2},
+					  _{x:3,y:2},
+					  _{x:4,y:2},
+					  _{x:5,y:2},
+					  _{x:0,y:3},
+					  _{x:1,y:3},
+					  _{x:2,y:3},
+					  _{x:3,y:3},
+					  _{x:4,y:3},
+					  _{x:5,y:3},
+					  _{x:0,y:4},
+					  _{x:1,y:4},
+					  _{x:2,y:4},
+					  _{x:3,y:4},
+					  _{x:4,y:4},
+					  _{x:5,y:4},
+					  _{x:0,y:5},
+					  _{x:1,y:5},
+					  _{x:2,y:5},
+					  _{x:3,y:5},
+					  _{x:4,y:5},
+					  _{x:5,y:5}
+					],
+				  eat_exit:_{c:_{x:1,y:1},e:_{id:exit}},
+				  eat_walls:[ _{ c:_{x:5,y:5},
+						 w:_{id:wall20}
+					       },
+					      _{ c:_{x:4,y:5},
+						 w:_{id:wall19}
+					       },
+					      _{ c:_{x:3,y:5},
+						 w:_{id:wall18}
+					       },
+					      _{ c:_{x:2,y:5},
+						 w:_{id:wall17}
+					       },
+					      _{ c:_{x:1,y:5},
+						 w:_{id:wall16}
+					       },
+					      _{ c:_{x:0,y:5},
+						 w:_{id:wall15}
+					       },
+					      _{ c:_{x:5,y:4},
+						 w:_{id:wall14}
+					       },
+					      _{ c:_{x:0,y:4},
+						 w:_{id:wall13}
+					       },
+					      _{ c:_{x:5,y:3},
+						 w:_{id:wall12}
+					       },
+					      _{ c:_{x:0,y:3},
+						 w:_{id:wall11}
+					       },
+					      _{ c:_{x:5,y:2},
+						 w:_{id:wall10}
+					       },
+					      _{ c:_{x:0,y:2},
+						 w:_{id:wall9}
+					       },
+					      _{ c:_{x:5,y:1},
+						 w:_{id:wall8}
+					       },
+					      _{ c:_{x:0,y:1},
+						 w:_{id:wall7}
+					       },
+					      _{ c:_{x:5,y:0},
+						 w:_{id:wall6}
+					       },
+					      _{ c:_{x:4,y:0},
+						 w:_{id:wall5}
+					       },
+					      _{ c:_{x:3,y:0},
+						 w:_{id:wall4}
+					       },
+					      _{ c:_{x:2,y:0},
+						 w:_{id:wall3}
+					       },
+					      _{ c:_{x:1,y:0},
+						 w:_{id:wall2}
+					       },
+					      _{ c:_{x:0,y:0},
+						 w:_{id:wall1}
+					       }
+					    ]
+				},
+	      certain_fluents:_{ alive:[_{id:hunter}],
+				 dir:[_{d:north,h:_{id:hunter}}],
+				 fat_gold:[],
+				 fat_hunter:_{ c:_{x:1,y:2},
+					       h:_{id:hunter}
+					     },
+				 game_state:running,
+				 has_arrow:[ _{ a:_{id:arrow1},
+						h:_{id:hunter}
+					      }
+					   ],
+				 has_gold:[],
+				 score:0,
+				 visited:[ _{ from:_{x:1,y:1},
+					      to:_{x:1,y:2}
+					    }
+					 ]
+			       },
+	      step:0,
+	      uncertain_eternals:_{ eat_pit:[ _{ c:_{x:1,y:1},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:2,y:1},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:1,y:2},
+						 p:_{id:false}
+					       }
+					    ],
+				    eat_wumpus:[ _{ c:_{x:1,y:1},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:2,y:1},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:1,y:2},
+						    w:_{id:false}
+						  }
+					       ]
+				  },
+	      uncertain_fluents:_{fatal:[]}
+	    },
+   percepts:[stench]
+ }
+completed(3, 0.062827159, 2811, 200, ok).
+/*Sun Mar 10 11:51:26 2024*/ request(4, 1710067886.100, [peer(ip(127,0,0,1)),method(put),request_uri('/action'),path('/action'),http_version(1-1),host(localhost),port(8081),connection('keep-alive'),content_length(2195),sec_ch_ua('"Chromium";v="122", "Not(A:Brand";v="24", "Brave";v="122"'),sec_ch_ua_platform('"Linux"'),sec_ch_ua_mobile('?0'),user_agent('Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'),content_type('application/json'),sec_gpc('1'),origin('http://localhost:9000'),sec_fetch_site('same-site'),sec_fetch_mode(cors),sec_fetch_dest(empty),referer('http://localhost:9000/')]).
+_{ beliefs:_{ certain_eternals:_{ cells:[ _{x:0,y:0},
+					  _{x:1,y:0},
+					  _{x:2,y:0},
+					  _{x:3,y:0},
+					  _{x:4,y:0},
+					  _{x:5,y:0},
+					  _{x:0,y:1},
+					  _{x:1,y:1},
+					  _{x:2,y:1},
+					  _{x:3,y:1},
+					  _{x:4,y:1},
+					  _{x:5,y:1},
+					  _{x:0,y:2},
+					  _{x:1,y:2},
+					  _{x:2,y:2},
+					  _{x:3,y:2},
+					  _{x:4,y:2},
+					  _{x:5,y:2},
+					  _{x:0,y:3},
+					  _{x:1,y:3},
+					  _{x:2,y:3},
+					  _{x:3,y:3},
+					  _{x:4,y:3},
+					  _{x:5,y:3},
+					  _{x:0,y:4},
+					  _{x:1,y:4},
+					  _{x:2,y:4},
+					  _{x:3,y:4},
+					  _{x:4,y:4},
+					  _{x:5,y:4},
+					  _{x:0,y:5},
+					  _{x:1,y:5},
+					  _{x:2,y:5},
+					  _{x:3,y:5},
+					  _{x:4,y:5},
+					  _{x:5,y:5}
+					],
+				  eat_exit:_{c:_{x:1,y:1},e:_{id:exit}},
+				  eat_walls:[ _{ c:_{x:5,y:5},
+						 w:_{id:wall20}
+					       },
+					      _{ c:_{x:4,y:5},
+						 w:_{id:wall19}
+					       },
+					      _{ c:_{x:3,y:5},
+						 w:_{id:wall18}
+					       },
+					      _{ c:_{x:2,y:5},
+						 w:_{id:wall17}
+					       },
+					      _{ c:_{x:1,y:5},
+						 w:_{id:wall16}
+					       },
+					      _{ c:_{x:0,y:5},
+						 w:_{id:wall15}
+					       },
+					      _{ c:_{x:5,y:4},
+						 w:_{id:wall14}
+					       },
+					      _{ c:_{x:0,y:4},
+						 w:_{id:wall13}
+					       },
+					      _{ c:_{x:5,y:3},
+						 w:_{id:wall12}
+					       },
+					      _{ c:_{x:0,y:3},
+						 w:_{id:wall11}
+					       },
+					      _{ c:_{x:5,y:2},
+						 w:_{id:wall10}
+					       },
+					      _{ c:_{x:0,y:2},
+						 w:_{id:wall9}
+					       },
+					      _{ c:_{x:5,y:1},
+						 w:_{id:wall8}
+					       },
+					      _{ c:_{x:0,y:1},
+						 w:_{id:wall7}
+					       },
+					      _{ c:_{x:5,y:0},
+						 w:_{id:wall6}
+					       },
+					      _{ c:_{x:4,y:0},
+						 w:_{id:wall5}
+					       },
+					      _{ c:_{x:3,y:0},
+						 w:_{id:wall4}
+					       },
+					      _{ c:_{x:2,y:0},
+						 w:_{id:wall3}
+					       },
+					      _{ c:_{x:1,y:0},
+						 w:_{id:wall2}
+					       },
+					      _{ c:_{x:0,y:0},
+						 w:_{id:wall1}
+					       }
+					    ]
+				},
+	      certain_fluents:_{ alive:[_{id:hunter}],
+				 dir:[_{d:west,h:_{id:hunter}}],
+				 fat_gold:[],
+				 fat_hunter:_{ c:_{x:1,y:2},
+					       h:_{id:hunter}
+					     },
+				 game_state:running,
+				 has_arrow:[ _{ a:_{id:arrow1},
+						h:_{id:hunter}
+					      }
+					   ],
+				 has_gold:[],
+				 score:0,
+				 visited:[ _{ from:_{x:1,y:1},
+					      to:_{x:1,y:2}
+					    }
+					 ]
+			       },
+	      step:0,
+	      uncertain_eternals:_{ eat_pit:[ _{ c:_{x:1,y:1},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:2,y:1},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:1,y:2},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:2,y:2},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:1,y:3},
+						 p:_{id:false}
+					       }
+					    ],
+				    eat_wumpus:[ _{ c:_{x:1,y:3},
+						    w:_{id:true}
+						  },
+						 _{ c:_{x:2,y:2},
+						    w:_{id:true}
+						  },
+						 _{ c:_{x:1,y:1},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:2,y:1},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:1,y:2},
+						    w:_{id:false}
+						  }
+					       ]
+				  },
+	      uncertain_fluents:_{fatal:[]}
+	    },
+   percepts:[stench]
+ }
+completed(4, 0.074050846, 2812, 200, ok).
+/*Sun Mar 10 11:51:27 2024*/ request(5, 1710067887.022, [peer(ip(127,0,0,1)),method(put),request_uri('/action'),path('/action'),http_version(1-1),host(localhost),port(8081),connection('keep-alive'),content_length(2196),sec_ch_ua('"Chromium";v="122", "Not(A:Brand";v="24", "Brave";v="122"'),sec_ch_ua_platform('"Linux"'),sec_ch_ua_mobile('?0'),user_agent('Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'),content_type('application/json'),sec_gpc('1'),origin('http://localhost:9000'),sec_fetch_site('same-site'),sec_fetch_mode(cors),sec_fetch_dest(empty),referer('http://localhost:9000/')]).
+_{ beliefs:_{ certain_eternals:_{ cells:[ _{x:0,y:0},
+					  _{x:1,y:0},
+					  _{x:2,y:0},
+					  _{x:3,y:0},
+					  _{x:4,y:0},
+					  _{x:5,y:0},
+					  _{x:0,y:1},
+					  _{x:1,y:1},
+					  _{x:2,y:1},
+					  _{x:3,y:1},
+					  _{x:4,y:1},
+					  _{x:5,y:1},
+					  _{x:0,y:2},
+					  _{x:1,y:2},
+					  _{x:2,y:2},
+					  _{x:3,y:2},
+					  _{x:4,y:2},
+					  _{x:5,y:2},
+					  _{x:0,y:3},
+					  _{x:1,y:3},
+					  _{x:2,y:3},
+					  _{x:3,y:3},
+					  _{x:4,y:3},
+					  _{x:5,y:3},
+					  _{x:0,y:4},
+					  _{x:1,y:4},
+					  _{x:2,y:4},
+					  _{x:3,y:4},
+					  _{x:4,y:4},
+					  _{x:5,y:4},
+					  _{x:0,y:5},
+					  _{x:1,y:5},
+					  _{x:2,y:5},
+					  _{x:3,y:5},
+					  _{x:4,y:5},
+					  _{x:5,y:5}
+					],
+				  eat_exit:_{c:_{x:1,y:1},e:_{id:exit}},
+				  eat_walls:[ _{ c:_{x:5,y:5},
+						 w:_{id:wall20}
+					       },
+					      _{ c:_{x:4,y:5},
+						 w:_{id:wall19}
+					       },
+					      _{ c:_{x:3,y:5},
+						 w:_{id:wall18}
+					       },
+					      _{ c:_{x:2,y:5},
+						 w:_{id:wall17}
+					       },
+					      _{ c:_{x:1,y:5},
+						 w:_{id:wall16}
+					       },
+					      _{ c:_{x:0,y:5},
+						 w:_{id:wall15}
+					       },
+					      _{ c:_{x:5,y:4},
+						 w:_{id:wall14}
+					       },
+					      _{ c:_{x:0,y:4},
+						 w:_{id:wall13}
+					       },
+					      _{ c:_{x:5,y:3},
+						 w:_{id:wall12}
+					       },
+					      _{ c:_{x:0,y:3},
+						 w:_{id:wall11}
+					       },
+					      _{ c:_{x:5,y:2},
+						 w:_{id:wall10}
+					       },
+					      _{ c:_{x:0,y:2},
+						 w:_{id:wall9}
+					       },
+					      _{ c:_{x:5,y:1},
+						 w:_{id:wall8}
+					       },
+					      _{ c:_{x:0,y:1},
+						 w:_{id:wall7}
+					       },
+					      _{ c:_{x:5,y:0},
+						 w:_{id:wall6}
+					       },
+					      _{ c:_{x:4,y:0},
+						 w:_{id:wall5}
+					       },
+					      _{ c:_{x:3,y:0},
+						 w:_{id:wall4}
+					       },
+					      _{ c:_{x:2,y:0},
+						 w:_{id:wall3}
+					       },
+					      _{ c:_{x:1,y:0},
+						 w:_{id:wall2}
+					       },
+					      _{ c:_{x:0,y:0},
+						 w:_{id:wall1}
+					       }
+					    ]
+				},
+	      certain_fluents:_{ alive:[_{id:hunter}],
+				 dir:[_{d:south,h:_{id:hunter}}],
+				 fat_gold:[],
+				 fat_hunter:_{ c:_{x:1,y:2},
+					       h:_{id:hunter}
+					     },
+				 game_state:running,
+				 has_arrow:[ _{ a:_{id:arrow1},
+						h:_{id:hunter}
+					      }
+					   ],
+				 has_gold:[],
+				 score:0,
+				 visited:[ _{ from:_{x:1,y:1},
+					      to:_{x:1,y:2}
+					    }
+					 ]
+			       },
+	      step:0,
+	      uncertain_eternals:_{ eat_pit:[ _{ c:_{x:1,y:1},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:2,y:1},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:1,y:2},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:2,y:2},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:1,y:3},
+						 p:_{id:false}
+					       }
+					    ],
+				    eat_wumpus:[ _{ c:_{x:1,y:3},
+						    w:_{id:true}
+						  },
+						 _{ c:_{x:2,y:2},
+						    w:_{id:true}
+						  },
+						 _{ c:_{x:1,y:1},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:2,y:1},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:1,y:2},
+						    w:_{id:false}
+						  }
+					       ]
+				  },
+	      uncertain_fluents:_{fatal:[]}
+	    },
+   percepts:[stench]
+ }
+completed(5, 0.053817756999999994, 2870, 200, ok).
+/*Sun Mar 10 11:51:27 2024*/ request(6, 1710067887.812, [peer(ip(127,0,0,1)),method(put),request_uri('/action'),path('/action'),http_version(1-1),host(localhost),port(8081),connection('keep-alive'),content_length(2230),sec_ch_ua('"Chromium";v="122", "Not(A:Brand";v="24", "Brave";v="122"'),sec_ch_ua_platform('"Linux"'),sec_ch_ua_mobile('?0'),user_agent('Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'),content_type('application/json'),sec_gpc('1'),origin('http://localhost:9000'),sec_fetch_site('same-site'),sec_fetch_mode(cors),sec_fetch_dest(empty),referer('http://localhost:9000/')]).
+_{ beliefs:_{ certain_eternals:_{ cells:[ _{x:0,y:0},
+					  _{x:1,y:0},
+					  _{x:2,y:0},
+					  _{x:3,y:0},
+					  _{x:4,y:0},
+					  _{x:5,y:0},
+					  _{x:0,y:1},
+					  _{x:1,y:1},
+					  _{x:2,y:1},
+					  _{x:3,y:1},
+					  _{x:4,y:1},
+					  _{x:5,y:1},
+					  _{x:0,y:2},
+					  _{x:1,y:2},
+					  _{x:2,y:2},
+					  _{x:3,y:2},
+					  _{x:4,y:2},
+					  _{x:5,y:2},
+					  _{x:0,y:3},
+					  _{x:1,y:3},
+					  _{x:2,y:3},
+					  _{x:3,y:3},
+					  _{x:4,y:3},
+					  _{x:5,y:3},
+					  _{x:0,y:4},
+					  _{x:1,y:4},
+					  _{x:2,y:4},
+					  _{x:3,y:4},
+					  _{x:4,y:4},
+					  _{x:5,y:4},
+					  _{x:0,y:5},
+					  _{x:1,y:5},
+					  _{x:2,y:5},
+					  _{x:3,y:5},
+					  _{x:4,y:5},
+					  _{x:5,y:5}
+					],
+				  eat_exit:_{c:_{x:1,y:1},e:_{id:exit}},
+				  eat_walls:[ _{ c:_{x:5,y:5},
+						 w:_{id:wall20}
+					       },
+					      _{ c:_{x:4,y:5},
+						 w:_{id:wall19}
+					       },
+					      _{ c:_{x:3,y:5},
+						 w:_{id:wall18}
+					       },
+					      _{ c:_{x:2,y:5},
+						 w:_{id:wall17}
+					       },
+					      _{ c:_{x:1,y:5},
+						 w:_{id:wall16}
+					       },
+					      _{ c:_{x:0,y:5},
+						 w:_{id:wall15}
+					       },
+					      _{ c:_{x:5,y:4},
+						 w:_{id:wall14}
+					       },
+					      _{ c:_{x:0,y:4},
+						 w:_{id:wall13}
+					       },
+					      _{ c:_{x:5,y:3},
+						 w:_{id:wall12}
+					       },
+					      _{ c:_{x:0,y:3},
+						 w:_{id:wall11}
+					       },
+					      _{ c:_{x:5,y:2},
+						 w:_{id:wall10}
+					       },
+					      _{ c:_{x:0,y:2},
+						 w:_{id:wall9}
+					       },
+					      _{ c:_{x:5,y:1},
+						 w:_{id:wall8}
+					       },
+					      _{ c:_{x:0,y:1},
+						 w:_{id:wall7}
+					       },
+					      _{ c:_{x:5,y:0},
+						 w:_{id:wall6}
+					       },
+					      _{ c:_{x:4,y:0},
+						 w:_{id:wall5}
+					       },
+					      _{ c:_{x:3,y:0},
+						 w:_{id:wall4}
+					       },
+					      _{ c:_{x:2,y:0},
+						 w:_{id:wall3}
+					       },
+					      _{ c:_{x:1,y:0},
+						 w:_{id:wall2}
+					       },
+					      _{ c:_{x:0,y:0},
+						 w:_{id:wall1}
+					       }
+					    ]
+				},
+	      certain_fluents:_{ alive:[_{id:hunter}],
+				 dir:[_{d:south,h:_{id:hunter}}],
+				 fat_gold:[],
+				 fat_hunter:_{ c:_{x:1,y:1},
+					       h:_{id:hunter}
+					     },
+				 game_state:running,
+				 has_arrow:[ _{ a:_{id:arrow1},
+						h:_{id:hunter}
+					      }
+					   ],
+				 has_gold:[],
+				 score:0,
+				 visited:[ _{ from:_{x:1,y:2},
+					      to:_{x:1,y:1}
+					    },
+					   _{ from:_{x:1,y:1},
+					      to:_{x:1,y:2}
+					    }
+					 ]
+			       },
+	      step:0,
+	      uncertain_eternals:_{ eat_pit:[ _{ c:_{x:1,y:1},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:2,y:1},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:1,y:2},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:2,y:2},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:1,y:3},
+						 p:_{id:false}
+					       }
+					    ],
+				    eat_wumpus:[ _{ c:_{x:1,y:3},
+						    w:_{id:true}
+						  },
+						 _{ c:_{x:2,y:2},
+						    w:_{id:true}
+						  },
+						 _{ c:_{x:1,y:1},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:2,y:1},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:1,y:2},
+						    w:_{id:false}
+						  }
+					       ]
+				  },
+	      uncertain_fluents:_{fatal:[]}
+	    },
+   percepts:[]
+ }
+completed(6, 0.058542023, 2857, 200, ok).
+/*Sun Mar 10 11:51:29 2024*/ request(7, 1710067889.104, [peer(ip(127,0,0,1)),method(options),request_uri('/action'),path('/action'),http_version(1-1),host(localhost),port(8081),connection('keep-alive'),access_control_request_method('PUT'),access_control_request_headers('content-type'),origin('http://localhost:9000'),user_agent('Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'),sec_fetch_mode(cors),sec_fetch_site('same-site'),sec_fetch_dest(empty),referer('http://localhost:9000/')]).
+completed(7, 0.0026217550000000034, 0, 200, ok).
+/*Sun Mar 10 11:51:29 2024*/ request(8, 1710067889.110, [peer(ip(127,0,0,1)),method(put),request_uri('/action'),path('/action'),http_version(1-1),host(localhost),port(8081),connection('keep-alive'),content_length(2229),sec_ch_ua('"Chromium";v="122", "Not(A:Brand";v="24", "Brave";v="122"'),sec_ch_ua_platform('"Linux"'),sec_ch_ua_mobile('?0'),user_agent('Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'),content_type('application/json'),sec_gpc('1'),origin('http://localhost:9000'),sec_fetch_site('same-site'),sec_fetch_mode(cors),sec_fetch_dest(empty),referer('http://localhost:9000/')]).
+_{ beliefs:_{ certain_eternals:_{ cells:[ _{x:0,y:0},
+					  _{x:1,y:0},
+					  _{x:2,y:0},
+					  _{x:3,y:0},
+					  _{x:4,y:0},
+					  _{x:5,y:0},
+					  _{x:0,y:1},
+					  _{x:1,y:1},
+					  _{x:2,y:1},
+					  _{x:3,y:1},
+					  _{x:4,y:1},
+					  _{x:5,y:1},
+					  _{x:0,y:2},
+					  _{x:1,y:2},
+					  _{x:2,y:2},
+					  _{x:3,y:2},
+					  _{x:4,y:2},
+					  _{x:5,y:2},
+					  _{x:0,y:3},
+					  _{x:1,y:3},
+					  _{x:2,y:3},
+					  _{x:3,y:3},
+					  _{x:4,y:3},
+					  _{x:5,y:3},
+					  _{x:0,y:4},
+					  _{x:1,y:4},
+					  _{x:2,y:4},
+					  _{x:3,y:4},
+					  _{x:4,y:4},
+					  _{x:5,y:4},
+					  _{x:0,y:5},
+					  _{x:1,y:5},
+					  _{x:2,y:5},
+					  _{x:3,y:5},
+					  _{x:4,y:5},
+					  _{x:5,y:5}
+					],
+				  eat_exit:_{c:_{x:1,y:1},e:_{id:exit}},
+				  eat_walls:[ _{ c:_{x:5,y:5},
+						 w:_{id:wall20}
+					       },
+					      _{ c:_{x:4,y:5},
+						 w:_{id:wall19}
+					       },
+					      _{ c:_{x:3,y:5},
+						 w:_{id:wall18}
+					       },
+					      _{ c:_{x:2,y:5},
+						 w:_{id:wall17}
+					       },
+					      _{ c:_{x:1,y:5},
+						 w:_{id:wall16}
+					       },
+					      _{ c:_{x:0,y:5},
+						 w:_{id:wall15}
+					       },
+					      _{ c:_{x:5,y:4},
+						 w:_{id:wall14}
+					       },
+					      _{ c:_{x:0,y:4},
+						 w:_{id:wall13}
+					       },
+					      _{ c:_{x:5,y:3},
+						 w:_{id:wall12}
+					       },
+					      _{ c:_{x:0,y:3},
+						 w:_{id:wall11}
+					       },
+					      _{ c:_{x:5,y:2},
+						 w:_{id:wall10}
+					       },
+					      _{ c:_{x:0,y:2},
+						 w:_{id:wall9}
+					       },
+					      _{ c:_{x:5,y:1},
+						 w:_{id:wall8}
+					       },
+					      _{ c:_{x:0,y:1},
+						 w:_{id:wall7}
+					       },
+					      _{ c:_{x:5,y:0},
+						 w:_{id:wall6}
+					       },
+					      _{ c:_{x:4,y:0},
+						 w:_{id:wall5}
+					       },
+					      _{ c:_{x:3,y:0},
+						 w:_{id:wall4}
+					       },
+					      _{ c:_{x:2,y:0},
+						 w:_{id:wall3}
+					       },
+					      _{ c:_{x:1,y:0},
+						 w:_{id:wall2}
+					       },
+					      _{ c:_{x:0,y:0},
+						 w:_{id:wall1}
+					       }
+					    ]
+				},
+	      certain_fluents:_{ alive:[_{id:hunter}],
+				 dir:[_{d:east,h:_{id:hunter}}],
+				 fat_gold:[],
+				 fat_hunter:_{ c:_{x:1,y:1},
+					       h:_{id:hunter}
+					     },
+				 game_state:running,
+				 has_arrow:[ _{ a:_{id:arrow1},
+						h:_{id:hunter}
+					      }
+					   ],
+				 has_gold:[],
+				 score:0,
+				 visited:[ _{ from:_{x:1,y:2},
+					      to:_{x:1,y:1}
+					    },
+					   _{ from:_{x:1,y:1},
+					      to:_{x:1,y:2}
+					    }
+					 ]
+			       },
+	      step:0,
+	      uncertain_eternals:_{ eat_pit:[ _{ c:_{x:1,y:1},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:2,y:1},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:1,y:2},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:2,y:2},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:1,y:3},
+						 p:_{id:false}
+					       }
+					    ],
+				    eat_wumpus:[ _{ c:_{x:1,y:3},
+						    w:_{id:true}
+						  },
+						 _{ c:_{x:2,y:2},
+						    w:_{id:true}
+						  },
+						 _{ c:_{x:1,y:1},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:2,y:1},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:1,y:2},
+						    w:_{id:false}
+						  }
+					       ]
+				  },
+	      uncertain_fluents:_{fatal:[]}
+	    },
+   percepts:[]
+ }
+completed(8, 0.068185371, 2911, 200, ok).
+/*Sun Mar 10 11:51:30 2024*/ request(9, 1710067890.009, [peer(ip(127,0,0,1)),method(put),request_uri('/action'),path('/action'),http_version(1-1),host(localhost),port(8081),connection('keep-alive'),content_length(2279),sec_ch_ua('"Chromium";v="122", "Not(A:Brand";v="24", "Brave";v="122"'),sec_ch_ua_platform('"Linux"'),sec_ch_ua_mobile('?0'),user_agent('Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'),content_type('application/json'),sec_gpc('1'),origin('http://localhost:9000'),sec_fetch_site('same-site'),sec_fetch_mode(cors),sec_fetch_dest(empty),referer('http://localhost:9000/')]).
+_{ beliefs:_{ certain_eternals:_{ cells:[ _{x:0,y:0},
+					  _{x:1,y:0},
+					  _{x:2,y:0},
+					  _{x:3,y:0},
+					  _{x:4,y:0},
+					  _{x:5,y:0},
+					  _{x:0,y:1},
+					  _{x:1,y:1},
+					  _{x:2,y:1},
+					  _{x:3,y:1},
+					  _{x:4,y:1},
+					  _{x:5,y:1},
+					  _{x:0,y:2},
+					  _{x:1,y:2},
+					  _{x:2,y:2},
+					  _{x:3,y:2},
+					  _{x:4,y:2},
+					  _{x:5,y:2},
+					  _{x:0,y:3},
+					  _{x:1,y:3},
+					  _{x:2,y:3},
+					  _{x:3,y:3},
+					  _{x:4,y:3},
+					  _{x:5,y:3},
+					  _{x:0,y:4},
+					  _{x:1,y:4},
+					  _{x:2,y:4},
+					  _{x:3,y:4},
+					  _{x:4,y:4},
+					  _{x:5,y:4},
+					  _{x:0,y:5},
+					  _{x:1,y:5},
+					  _{x:2,y:5},
+					  _{x:3,y:5},
+					  _{x:4,y:5},
+					  _{x:5,y:5}
+					],
+				  eat_exit:_{c:_{x:1,y:1},e:_{id:exit}},
+				  eat_walls:[ _{ c:_{x:5,y:5},
+						 w:_{id:wall20}
+					       },
+					      _{ c:_{x:4,y:5},
+						 w:_{id:wall19}
+					       },
+					      _{ c:_{x:3,y:5},
+						 w:_{id:wall18}
+					       },
+					      _{ c:_{x:2,y:5},
+						 w:_{id:wall17}
+					       },
+					      _{ c:_{x:1,y:5},
+						 w:_{id:wall16}
+					       },
+					      _{ c:_{x:0,y:5},
+						 w:_{id:wall15}
+					       },
+					      _{ c:_{x:5,y:4},
+						 w:_{id:wall14}
+					       },
+					      _{ c:_{x:0,y:4},
+						 w:_{id:wall13}
+					       },
+					      _{ c:_{x:5,y:3},
+						 w:_{id:wall12}
+					       },
+					      _{ c:_{x:0,y:3},
+						 w:_{id:wall11}
+					       },
+					      _{ c:_{x:5,y:2},
+						 w:_{id:wall10}
+					       },
+					      _{ c:_{x:0,y:2},
+						 w:_{id:wall9}
+					       },
+					      _{ c:_{x:5,y:1},
+						 w:_{id:wall8}
+					       },
+					      _{ c:_{x:0,y:1},
+						 w:_{id:wall7}
+					       },
+					      _{ c:_{x:5,y:0},
+						 w:_{id:wall6}
+					       },
+					      _{ c:_{x:4,y:0},
+						 w:_{id:wall5}
+					       },
+					      _{ c:_{x:3,y:0},
+						 w:_{id:wall4}
+					       },
+					      _{ c:_{x:2,y:0},
+						 w:_{id:wall3}
+					       },
+					      _{ c:_{x:1,y:0},
+						 w:_{id:wall2}
+					       },
+					      _{ c:_{x:0,y:0},
+						 w:_{id:wall1}
+					       }
+					    ]
+				},
+	      certain_fluents:_{ alive:[_{id:hunter}],
+				 dir:[_{d:east,h:_{id:hunter}}],
+				 fat_gold:[],
+				 fat_hunter:_{ c:_{x:2,y:1},
+					       h:_{id:hunter}
+					     },
+				 game_state:running,
+				 has_arrow:[ _{ a:_{id:arrow1},
+						h:_{id:hunter}
+					      }
+					   ],
+				 has_gold:[],
+				 score:0,
+				 visited:[ _{ from:_{x:1,y:1},
+					      to:_{x:2,y:1}
+					    },
+					   _{ from:_{x:1,y:2},
+					      to:_{x:1,y:1}
+					    },
+					   _{ from:_{x:1,y:1},
+					      to:_{x:1,y:2}
+					    }
+					 ]
+			       },
+	      step:0,
+	      uncertain_eternals:_{ eat_pit:[ _{ c:_{x:1,y:1},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:2,y:1},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:1,y:2},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:2,y:2},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:1,y:3},
+						 p:_{id:false}
+					       }
+					    ],
+				    eat_wumpus:[ _{ c:_{x:1,y:3},
+						    w:_{id:true}
+						  },
+						 _{ c:_{x:2,y:2},
+						    w:_{id:true}
+						  },
+						 _{ c:_{x:1,y:1},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:2,y:1},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:1,y:2},
+						    w:_{id:false}
+						  }
+					       ]
+				  },
+	      uncertain_fluents:_{fatal:[]}
+	    },
+   percepts:[breeze]
+ }
+completed(9, 0.062779009, 3008, 200, ok).
+/*Sun Mar 10 11:51:31 2024*/ request(10, 1710067891.202, [peer(ip(127,0,0,1)),method(put),request_uri('/action'),path('/action'),http_version(1-1),host(localhost),port(8081),connection('keep-alive'),content_length(2354),sec_ch_ua('"Chromium";v="122", "Not(A:Brand";v="24", "Brave";v="122"'),sec_ch_ua_platform('"Linux"'),sec_ch_ua_mobile('?0'),user_agent('Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'),content_type('application/json'),sec_gpc('1'),origin('http://localhost:9000'),sec_fetch_site('same-site'),sec_fetch_mode(cors),sec_fetch_dest(empty),referer('http://localhost:9000/')]).
+_{ beliefs:_{ certain_eternals:_{ cells:[ _{x:0,y:0},
+					  _{x:1,y:0},
+					  _{x:2,y:0},
+					  _{x:3,y:0},
+					  _{x:4,y:0},
+					  _{x:5,y:0},
+					  _{x:0,y:1},
+					  _{x:1,y:1},
+					  _{x:2,y:1},
+					  _{x:3,y:1},
+					  _{x:4,y:1},
+					  _{x:5,y:1},
+					  _{x:0,y:2},
+					  _{x:1,y:2},
+					  _{x:2,y:2},
+					  _{x:3,y:2},
+					  _{x:4,y:2},
+					  _{x:5,y:2},
+					  _{x:0,y:3},
+					  _{x:1,y:3},
+					  _{x:2,y:3},
+					  _{x:3,y:3},
+					  _{x:4,y:3},
+					  _{x:5,y:3},
+					  _{x:0,y:4},
+					  _{x:1,y:4},
+					  _{x:2,y:4},
+					  _{x:3,y:4},
+					  _{x:4,y:4},
+					  _{x:5,y:4},
+					  _{x:0,y:5},
+					  _{x:1,y:5},
+					  _{x:2,y:5},
+					  _{x:3,y:5},
+					  _{x:4,y:5},
+					  _{x:5,y:5}
+					],
+				  eat_exit:_{c:_{x:1,y:1},e:_{id:exit}},
+				  eat_walls:[ _{ c:_{x:5,y:5},
+						 w:_{id:wall20}
+					       },
+					      _{ c:_{x:4,y:5},
+						 w:_{id:wall19}
+					       },
+					      _{ c:_{x:3,y:5},
+						 w:_{id:wall18}
+					       },
+					      _{ c:_{x:2,y:5},
+						 w:_{id:wall17}
+					       },
+					      _{ c:_{x:1,y:5},
+						 w:_{id:wall16}
+					       },
+					      _{ c:_{x:0,y:5},
+						 w:_{id:wall15}
+					       },
+					      _{ c:_{x:5,y:4},
+						 w:_{id:wall14}
+					       },
+					      _{ c:_{x:0,y:4},
+						 w:_{id:wall13}
+					       },
+					      _{ c:_{x:5,y:3},
+						 w:_{id:wall12}
+					       },
+					      _{ c:_{x:0,y:3},
+						 w:_{id:wall11}
+					       },
+					      _{ c:_{x:5,y:2},
+						 w:_{id:wall10}
+					       },
+					      _{ c:_{x:0,y:2},
+						 w:_{id:wall9}
+					       },
+					      _{ c:_{x:5,y:1},
+						 w:_{id:wall8}
+					       },
+					      _{ c:_{x:0,y:1},
+						 w:_{id:wall7}
+					       },
+					      _{ c:_{x:5,y:0},
+						 w:_{id:wall6}
+					       },
+					      _{ c:_{x:4,y:0},
+						 w:_{id:wall5}
+					       },
+					      _{ c:_{x:3,y:0},
+						 w:_{id:wall4}
+					       },
+					      _{ c:_{x:2,y:0},
+						 w:_{id:wall3}
+					       },
+					      _{ c:_{x:1,y:0},
+						 w:_{id:wall2}
+					       },
+					      _{ c:_{x:0,y:0},
+						 w:_{id:wall1}
+					       }
+					    ]
+				},
+	      certain_fluents:_{ alive:[_{id:hunter}],
+				 dir:[_{d:north,h:_{id:hunter}}],
+				 fat_gold:[],
+				 fat_hunter:_{ c:_{x:2,y:1},
+					       h:_{id:hunter}
+					     },
+				 game_state:running,
+				 has_arrow:[ _{ a:_{id:arrow1},
+						h:_{id:hunter}
+					      }
+					   ],
+				 has_gold:[],
+				 score:0,
+				 visited:[ _{ from:_{x:1,y:1},
+					      to:_{x:2,y:1}
+					    },
+					   _{ from:_{x:1,y:2},
+					      to:_{x:1,y:1}
+					    },
+					   _{ from:_{x:1,y:1},
+					      to:_{x:1,y:2}
+					    }
+					 ]
+			       },
+	      step:0,
+	      uncertain_eternals:_{ eat_pit:[ _{ c:_{x:3,y:1},
+						 p:_{id:true}
+					       },
+					      _{ c:_{x:1,y:1},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:2,y:1},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:1,y:2},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:2,y:2},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:1,y:3},
+						 p:_{id:false}
+					       }
+					    ],
+				    eat_wumpus:[ _{ c:_{x:1,y:3},
+						    w:_{id:true}
+						  },
+						 _{ c:_{x:1,y:1},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:2,y:1},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:1,y:2},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:3,y:1},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:2,y:2},
+						    w:_{id:false}
+						  }
+					       ]
+				  },
+	      uncertain_fluents:_{fatal:[]}
+	    },
+   percepts:[breeze]
+ }
+completed(10, 0.06495827299999998, 3062, 200, ok).
+/*Sun Mar 10 11:51:32 2024*/ request(11, 1710067892.222, [peer(ip(127,0,0,1)),method(put),request_uri('/action'),path('/action'),http_version(1-1),host(localhost),port(8081),connection('keep-alive'),content_length(2388),sec_ch_ua('"Chromium";v="122", "Not(A:Brand";v="24", "Brave";v="122"'),sec_ch_ua_platform('"Linux"'),sec_ch_ua_mobile('?0'),user_agent('Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'),content_type('application/json'),sec_gpc('1'),origin('http://localhost:9000'),sec_fetch_site('same-site'),sec_fetch_mode(cors),sec_fetch_dest(empty),referer('http://localhost:9000/')]).
+_{ beliefs:_{ certain_eternals:_{ cells:[ _{x:0,y:0},
+					  _{x:1,y:0},
+					  _{x:2,y:0},
+					  _{x:3,y:0},
+					  _{x:4,y:0},
+					  _{x:5,y:0},
+					  _{x:0,y:1},
+					  _{x:1,y:1},
+					  _{x:2,y:1},
+					  _{x:3,y:1},
+					  _{x:4,y:1},
+					  _{x:5,y:1},
+					  _{x:0,y:2},
+					  _{x:1,y:2},
+					  _{x:2,y:2},
+					  _{x:3,y:2},
+					  _{x:4,y:2},
+					  _{x:5,y:2},
+					  _{x:0,y:3},
+					  _{x:1,y:3},
+					  _{x:2,y:3},
+					  _{x:3,y:3},
+					  _{x:4,y:3},
+					  _{x:5,y:3},
+					  _{x:0,y:4},
+					  _{x:1,y:4},
+					  _{x:2,y:4},
+					  _{x:3,y:4},
+					  _{x:4,y:4},
+					  _{x:5,y:4},
+					  _{x:0,y:5},
+					  _{x:1,y:5},
+					  _{x:2,y:5},
+					  _{x:3,y:5},
+					  _{x:4,y:5},
+					  _{x:5,y:5}
+					],
+				  eat_exit:_{c:_{x:1,y:1},e:_{id:exit}},
+				  eat_walls:[ _{ c:_{x:5,y:5},
+						 w:_{id:wall20}
+					       },
+					      _{ c:_{x:4,y:5},
+						 w:_{id:wall19}
+					       },
+					      _{ c:_{x:3,y:5},
+						 w:_{id:wall18}
+					       },
+					      _{ c:_{x:2,y:5},
+						 w:_{id:wall17}
+					       },
+					      _{ c:_{x:1,y:5},
+						 w:_{id:wall16}
+					       },
+					      _{ c:_{x:0,y:5},
+						 w:_{id:wall15}
+					       },
+					      _{ c:_{x:5,y:4},
+						 w:_{id:wall14}
+					       },
+					      _{ c:_{x:0,y:4},
+						 w:_{id:wall13}
+					       },
+					      _{ c:_{x:5,y:3},
+						 w:_{id:wall12}
+					       },
+					      _{ c:_{x:0,y:3},
+						 w:_{id:wall11}
+					       },
+					      _{ c:_{x:5,y:2},
+						 w:_{id:wall10}
+					       },
+					      _{ c:_{x:0,y:2},
+						 w:_{id:wall9}
+					       },
+					      _{ c:_{x:5,y:1},
+						 w:_{id:wall8}
+					       },
+					      _{ c:_{x:0,y:1},
+						 w:_{id:wall7}
+					       },
+					      _{ c:_{x:5,y:0},
+						 w:_{id:wall6}
+					       },
+					      _{ c:_{x:4,y:0},
+						 w:_{id:wall5}
+					       },
+					      _{ c:_{x:3,y:0},
+						 w:_{id:wall4}
+					       },
+					      _{ c:_{x:2,y:0},
+						 w:_{id:wall3}
+					       },
+					      _{ c:_{x:1,y:0},
+						 w:_{id:wall2}
+					       },
+					      _{ c:_{x:0,y:0},
+						 w:_{id:wall1}
+					       }
+					    ]
+				},
+	      certain_fluents:_{ alive:[_{id:hunter}],
+				 dir:[_{d:north,h:_{id:hunter}}],
+				 fat_gold:[],
+				 fat_hunter:_{ c:_{x:2,y:2},
+					       h:_{id:hunter}
+					     },
+				 game_state:running,
+				 has_arrow:[ _{ a:_{id:arrow1},
+						h:_{id:hunter}
+					      }
+					   ],
+				 has_gold:[],
+				 score:0,
+				 visited:[ _{ from:_{x:2,y:1},
+					      to:_{x:2,y:2}
+					    },
+					   _{ from:_{x:1,y:1},
+					      to:_{x:2,y:1}
+					    },
+					   _{ from:_{x:1,y:2},
+					      to:_{x:1,y:1}
+					    },
+					   _{ from:_{x:1,y:1},
+					      to:_{x:1,y:2}
+					    }
+					 ]
+			       },
+	      step:0,
+	      uncertain_eternals:_{ eat_pit:[ _{ c:_{x:3,y:1},
+						 p:_{id:true}
+					       },
+					      _{ c:_{x:1,y:1},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:2,y:1},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:1,y:2},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:2,y:2},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:1,y:3},
+						 p:_{id:false}
+					       }
+					    ],
+				    eat_wumpus:[ _{ c:_{x:1,y:3},
+						    w:_{id:true}
+						  },
+						 _{ c:_{x:1,y:1},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:2,y:1},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:1,y:2},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:3,y:1},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:2,y:2},
+						    w:_{id:false}
+						  }
+					       ]
+				  },
+	      uncertain_fluents:_{fatal:[]}
+	    },
+   percepts:[]
+ }
+completed(11, 0.06178635299999999, 3284, 200, ok).
+/*Sun Mar 10 11:51:33 2024*/ request(12, 1710067893.107, [peer(ip(127,0,0,1)),method(put),request_uri('/action'),path('/action'),http_version(1-1),host(localhost),port(8081),connection('keep-alive'),content_length(2605),sec_ch_ua('"Chromium";v="122", "Not(A:Brand";v="24", "Brave";v="122"'),sec_ch_ua_platform('"Linux"'),sec_ch_ua_mobile('?0'),user_agent('Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'),content_type('application/json'),sec_gpc('1'),origin('http://localhost:9000'),sec_fetch_site('same-site'),sec_fetch_mode(cors),sec_fetch_dest(empty),referer('http://localhost:9000/')]).
+_{ beliefs:_{ certain_eternals:_{ cells:[ _{x:0,y:0},
+					  _{x:1,y:0},
+					  _{x:2,y:0},
+					  _{x:3,y:0},
+					  _{x:4,y:0},
+					  _{x:5,y:0},
+					  _{x:0,y:1},
+					  _{x:1,y:1},
+					  _{x:2,y:1},
+					  _{x:3,y:1},
+					  _{x:4,y:1},
+					  _{x:5,y:1},
+					  _{x:0,y:2},
+					  _{x:1,y:2},
+					  _{x:2,y:2},
+					  _{x:3,y:2},
+					  _{x:4,y:2},
+					  _{x:5,y:2},
+					  _{x:0,y:3},
+					  _{x:1,y:3},
+					  _{x:2,y:3},
+					  _{x:3,y:3},
+					  _{x:4,y:3},
+					  _{x:5,y:3},
+					  _{x:0,y:4},
+					  _{x:1,y:4},
+					  _{x:2,y:4},
+					  _{x:3,y:4},
+					  _{x:4,y:4},
+					  _{x:5,y:4},
+					  _{x:0,y:5},
+					  _{x:1,y:5},
+					  _{x:2,y:5},
+					  _{x:3,y:5},
+					  _{x:4,y:5},
+					  _{x:5,y:5}
+					],
+				  eat_exit:_{c:_{x:1,y:1},e:_{id:exit}},
+				  eat_walls:[ _{ c:_{x:5,y:5},
+						 w:_{id:wall20}
+					       },
+					      _{ c:_{x:4,y:5},
+						 w:_{id:wall19}
+					       },
+					      _{ c:_{x:3,y:5},
+						 w:_{id:wall18}
+					       },
+					      _{ c:_{x:2,y:5},
+						 w:_{id:wall17}
+					       },
+					      _{ c:_{x:1,y:5},
+						 w:_{id:wall16}
+					       },
+					      _{ c:_{x:0,y:5},
+						 w:_{id:wall15}
+					       },
+					      _{ c:_{x:5,y:4},
+						 w:_{id:wall14}
+					       },
+					      _{ c:_{x:0,y:4},
+						 w:_{id:wall13}
+					       },
+					      _{ c:_{x:5,y:3},
+						 w:_{id:wall12}
+					       },
+					      _{ c:_{x:0,y:3},
+						 w:_{id:wall11}
+					       },
+					      _{ c:_{x:5,y:2},
+						 w:_{id:wall10}
+					       },
+					      _{ c:_{x:0,y:2},
+						 w:_{id:wall9}
+					       },
+					      _{ c:_{x:5,y:1},
+						 w:_{id:wall8}
+					       },
+					      _{ c:_{x:0,y:1},
+						 w:_{id:wall7}
+					       },
+					      _{ c:_{x:5,y:0},
+						 w:_{id:wall6}
+					       },
+					      _{ c:_{x:4,y:0},
+						 w:_{id:wall5}
+					       },
+					      _{ c:_{x:3,y:0},
+						 w:_{id:wall4}
+					       },
+					      _{ c:_{x:2,y:0},
+						 w:_{id:wall3}
+					       },
+					      _{ c:_{x:1,y:0},
+						 w:_{id:wall2}
+					       },
+					      _{ c:_{x:0,y:0},
+						 w:_{id:wall1}
+					       }
+					    ]
+				},
+	      certain_fluents:_{ alive:[_{id:hunter}],
+				 dir:[_{d:north,h:_{id:hunter}}],
+				 fat_gold:[],
+				 fat_hunter:_{ c:_{x:2,y:3},
+					       h:_{id:hunter}
+					     },
+				 game_state:running,
+				 has_arrow:[ _{ a:_{id:arrow1},
+						h:_{id:hunter}
+					      }
+					   ],
+				 has_gold:[],
+				 score:0,
+				 visited:[ _{ from:_{x:2,y:2},
+					      to:_{x:2,y:3}
+					    },
+					   _{ from:_{x:2,y:1},
+					      to:_{x:2,y:2}
+					    },
+					   _{ from:_{x:1,y:1},
+					      to:_{x:2,y:1}
+					    },
+					   _{ from:_{x:1,y:2},
+					      to:_{x:1,y:1}
+					    },
+					   _{ from:_{x:1,y:1},
+					      to:_{x:1,y:2}
+					    }
+					 ]
+			       },
+	      step:0,
+	      uncertain_eternals:_{ eat_pit:[ _{ c:_{x:3,y:1},
+						 p:_{id:true}
+					       },
+					      _{ c:_{x:1,y:1},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:2,y:1},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:1,y:2},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:2,y:2},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:1,y:3},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:3,y:2},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:2,y:3},
+						 p:_{id:false}
+					       }
+					    ],
+				    eat_wumpus:[ _{ c:_{x:1,y:3},
+						    w:_{id:true}
+						  },
+						 _{ c:_{x:1,y:1},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:2,y:1},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:1,y:2},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:3,y:1},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:2,y:2},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:3,y:2},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:2,y:3},
+						    w:_{id:false}
+						  }
+					       ]
+				  },
+	      uncertain_fluents:_{fatal:[]}
+	    },
+   percepts:[glitter,breeze,stench]
+ }
+completed(12, 0.06236809999999998, 3488, 200, ok).
+/*Sun Mar 10 11:51:34 2024*/ request(13, 1710067894.439, [peer(ip(127,0,0,1)),method(options),request_uri('/action'),path('/action'),http_version(1-1),host(localhost),port(8081),connection('keep-alive'),access_control_request_method('PUT'),access_control_request_headers('content-type'),origin('http://localhost:9000'),user_agent('Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'),sec_fetch_mode(cors),sec_fetch_site('same-site'),sec_fetch_dest(empty),referer('http://localhost:9000/')]).
+completed(13, 0.0011758209999999936, 0, 200, ok).
+/*Sun Mar 10 11:51:34 2024*/ request(14, 1710067894.442, [peer(ip(127,0,0,1)),method(put),request_uri('/action'),path('/action'),http_version(1-1),host(localhost),port(8081),connection('keep-alive'),content_length(2741),sec_ch_ua('"Chromium";v="122", "Not(A:Brand";v="24", "Brave";v="122"'),sec_ch_ua_platform('"Linux"'),sec_ch_ua_mobile('?0'),user_agent('Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'),content_type('application/json'),sec_gpc('1'),origin('http://localhost:9000'),sec_fetch_site('same-site'),sec_fetch_mode(cors),sec_fetch_dest(empty),referer('http://localhost:9000/')]).
+_{ beliefs:_{ certain_eternals:_{ cells:[ _{x:0,y:0},
+					  _{x:1,y:0},
+					  _{x:2,y:0},
+					  _{x:3,y:0},
+					  _{x:4,y:0},
+					  _{x:5,y:0},
+					  _{x:0,y:1},
+					  _{x:1,y:1},
+					  _{x:2,y:1},
+					  _{x:3,y:1},
+					  _{x:4,y:1},
+					  _{x:5,y:1},
+					  _{x:0,y:2},
+					  _{x:1,y:2},
+					  _{x:2,y:2},
+					  _{x:3,y:2},
+					  _{x:4,y:2},
+					  _{x:5,y:2},
+					  _{x:0,y:3},
+					  _{x:1,y:3},
+					  _{x:2,y:3},
+					  _{x:3,y:3},
+					  _{x:4,y:3},
+					  _{x:5,y:3},
+					  _{x:0,y:4},
+					  _{x:1,y:4},
+					  _{x:2,y:4},
+					  _{x:3,y:4},
+					  _{x:4,y:4},
+					  _{x:5,y:4},
+					  _{x:0,y:5},
+					  _{x:1,y:5},
+					  _{x:2,y:5},
+					  _{x:3,y:5},
+					  _{x:4,y:5},
+					  _{x:5,y:5}
+					],
+				  eat_exit:_{c:_{x:1,y:1},e:_{id:exit}},
+				  eat_walls:[ _{ c:_{x:5,y:5},
+						 w:_{id:wall20}
+					       },
+					      _{ c:_{x:4,y:5},
+						 w:_{id:wall19}
+					       },
+					      _{ c:_{x:3,y:5},
+						 w:_{id:wall18}
+					       },
+					      _{ c:_{x:2,y:5},
+						 w:_{id:wall17}
+					       },
+					      _{ c:_{x:1,y:5},
+						 w:_{id:wall16}
+					       },
+					      _{ c:_{x:0,y:5},
+						 w:_{id:wall15}
+					       },
+					      _{ c:_{x:5,y:4},
+						 w:_{id:wall14}
+					       },
+					      _{ c:_{x:0,y:4},
+						 w:_{id:wall13}
+					       },
+					      _{ c:_{x:5,y:3},
+						 w:_{id:wall12}
+					       },
+					      _{ c:_{x:0,y:3},
+						 w:_{id:wall11}
+					       },
+					      _{ c:_{x:5,y:2},
+						 w:_{id:wall10}
+					       },
+					      _{ c:_{x:0,y:2},
+						 w:_{id:wall9}
+					       },
+					      _{ c:_{x:5,y:1},
+						 w:_{id:wall8}
+					       },
+					      _{ c:_{x:0,y:1},
+						 w:_{id:wall7}
+					       },
+					      _{ c:_{x:5,y:0},
+						 w:_{id:wall6}
+					       },
+					      _{ c:_{x:4,y:0},
+						 w:_{id:wall5}
+					       },
+					      _{ c:_{x:3,y:0},
+						 w:_{id:wall4}
+					       },
+					      _{ c:_{x:2,y:0},
+						 w:_{id:wall3}
+					       },
+					      _{ c:_{x:1,y:0},
+						 w:_{id:wall2}
+					       },
+					      _{ c:_{x:0,y:0},
+						 w:_{id:wall1}
+					       }
+					    ]
+				},
+	      certain_fluents:_{ alive:[_{id:hunter}],
+				 dir:[_{d:north,h:_{id:hunter}}],
+				 fat_gold:[],
+				 fat_hunter:_{ c:_{x:2,y:3},
+					       h:_{id:hunter}
+					     },
+				 game_state:running,
+				 has_arrow:[ _{ a:_{id:arrow1},
+						h:_{id:hunter}
+					      }
+					   ],
+				 has_gold:true,
+				 score:0,
+				 visited:[ _{ from:_{x:2,y:2},
+					      to:_{x:2,y:3}
+					    },
+					   _{ from:_{x:2,y:1},
+					      to:_{x:2,y:2}
+					    },
+					   _{ from:_{x:1,y:1},
+					      to:_{x:2,y:1}
+					    },
+					   _{ from:_{x:1,y:2},
+					      to:_{x:1,y:1}
+					    },
+					   _{ from:_{x:1,y:1},
+					      to:_{x:1,y:2}
+					    }
+					 ]
+			       },
+	      step:0,
+	      uncertain_eternals:_{ eat_pit:[ _{ c:_{x:3,y:1},
+						 p:_{id:true}
+					       },
+					      _{ c:_{x:2,y:4},
+						 p:_{id:true}
+					       },
+					      _{ c:_{x:3,y:3},
+						 p:_{id:true}
+					       },
+					      _{ c:_{x:1,y:1},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:2,y:1},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:1,y:2},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:2,y:2},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:1,y:3},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:3,y:2},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:2,y:3},
+						 p:_{id:false}
+					       }
+					    ],
+				    eat_wumpus:[ _{ c:_{x:1,y:3},
+						    w:_{id:true}
+						  },
+						 _{ c:_{x:2,y:4},
+						    w:_{id:true}
+						  },
+						 _{ c:_{x:3,y:3},
+						    w:_{id:true}
+						  },
+						 _{ c:_{x:1,y:1},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:2,y:1},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:1,y:2},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:3,y:1},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:2,y:2},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:3,y:2},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:2,y:3},
+						    w:_{id:false}
+						  }
+					       ]
+				  },
+	      uncertain_fluents:_{fatal:[]}
+	    },
+   percepts:[breeze,stench]
+ }
+completed(14, 0.049983715, 3477, 200, ok).
+/*Sun Mar 10 11:51:35 2024*/ request(15, 1710067895.780, [peer(ip(127,0,0,1)),method(put),request_uri('/action'),path('/action'),http_version(1-1),host(localhost),port(8081),connection('keep-alive'),content_length(2740),sec_ch_ua('"Chromium";v="122", "Not(A:Brand";v="24", "Brave";v="122"'),sec_ch_ua_platform('"Linux"'),sec_ch_ua_mobile('?0'),user_agent('Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'),content_type('application/json'),sec_gpc('1'),origin('http://localhost:9000'),sec_fetch_site('same-site'),sec_fetch_mode(cors),sec_fetch_dest(empty),referer('http://localhost:9000/')]).
+_{ beliefs:_{ certain_eternals:_{ cells:[ _{x:0,y:0},
+					  _{x:1,y:0},
+					  _{x:2,y:0},
+					  _{x:3,y:0},
+					  _{x:4,y:0},
+					  _{x:5,y:0},
+					  _{x:0,y:1},
+					  _{x:1,y:1},
+					  _{x:2,y:1},
+					  _{x:3,y:1},
+					  _{x:4,y:1},
+					  _{x:5,y:1},
+					  _{x:0,y:2},
+					  _{x:1,y:2},
+					  _{x:2,y:2},
+					  _{x:3,y:2},
+					  _{x:4,y:2},
+					  _{x:5,y:2},
+					  _{x:0,y:3},
+					  _{x:1,y:3},
+					  _{x:2,y:3},
+					  _{x:3,y:3},
+					  _{x:4,y:3},
+					  _{x:5,y:3},
+					  _{x:0,y:4},
+					  _{x:1,y:4},
+					  _{x:2,y:4},
+					  _{x:3,y:4},
+					  _{x:4,y:4},
+					  _{x:5,y:4},
+					  _{x:0,y:5},
+					  _{x:1,y:5},
+					  _{x:2,y:5},
+					  _{x:3,y:5},
+					  _{x:4,y:5},
+					  _{x:5,y:5}
+					],
+				  eat_exit:_{c:_{x:1,y:1},e:_{id:exit}},
+				  eat_walls:[ _{ c:_{x:5,y:5},
+						 w:_{id:wall20}
+					       },
+					      _{ c:_{x:4,y:5},
+						 w:_{id:wall19}
+					       },
+					      _{ c:_{x:3,y:5},
+						 w:_{id:wall18}
+					       },
+					      _{ c:_{x:2,y:5},
+						 w:_{id:wall17}
+					       },
+					      _{ c:_{x:1,y:5},
+						 w:_{id:wall16}
+					       },
+					      _{ c:_{x:0,y:5},
+						 w:_{id:wall15}
+					       },
+					      _{ c:_{x:5,y:4},
+						 w:_{id:wall14}
+					       },
+					      _{ c:_{x:0,y:4},
+						 w:_{id:wall13}
+					       },
+					      _{ c:_{x:5,y:3},
+						 w:_{id:wall12}
+					       },
+					      _{ c:_{x:0,y:3},
+						 w:_{id:wall11}
+					       },
+					      _{ c:_{x:5,y:2},
+						 w:_{id:wall10}
+					       },
+					      _{ c:_{x:0,y:2},
+						 w:_{id:wall9}
+					       },
+					      _{ c:_{x:5,y:1},
+						 w:_{id:wall8}
+					       },
+					      _{ c:_{x:0,y:1},
+						 w:_{id:wall7}
+					       },
+					      _{ c:_{x:5,y:0},
+						 w:_{id:wall6}
+					       },
+					      _{ c:_{x:4,y:0},
+						 w:_{id:wall5}
+					       },
+					      _{ c:_{x:3,y:0},
+						 w:_{id:wall4}
+					       },
+					      _{ c:_{x:2,y:0},
+						 w:_{id:wall3}
+					       },
+					      _{ c:_{x:1,y:0},
+						 w:_{id:wall2}
+					       },
+					      _{ c:_{x:0,y:0},
+						 w:_{id:wall1}
+					       }
+					    ]
+				},
+	      certain_fluents:_{ alive:[_{id:hunter}],
+				 dir:[_{d:east,h:_{id:hunter}}],
+				 fat_gold:[],
+				 fat_hunter:_{ c:_{x:2,y:3},
+					       h:_{id:hunter}
+					     },
+				 game_state:running,
+				 has_arrow:[ _{ a:_{id:arrow1},
+						h:_{id:hunter}
+					      }
+					   ],
+				 has_gold:true,
+				 score:0,
+				 visited:[ _{ from:_{x:2,y:2},
+					      to:_{x:2,y:3}
+					    },
+					   _{ from:_{x:2,y:1},
+					      to:_{x:2,y:2}
+					    },
+					   _{ from:_{x:1,y:1},
+					      to:_{x:2,y:1}
+					    },
+					   _{ from:_{x:1,y:2},
+					      to:_{x:1,y:1}
+					    },
+					   _{ from:_{x:1,y:1},
+					      to:_{x:1,y:2}
+					    }
+					 ]
+			       },
+	      step:0,
+	      uncertain_eternals:_{ eat_pit:[ _{ c:_{x:3,y:1},
+						 p:_{id:true}
+					       },
+					      _{ c:_{x:2,y:4},
+						 p:_{id:true}
+					       },
+					      _{ c:_{x:3,y:3},
+						 p:_{id:true}
+					       },
+					      _{ c:_{x:1,y:1},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:2,y:1},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:1,y:2},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:2,y:2},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:1,y:3},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:3,y:2},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:2,y:3},
+						 p:_{id:false}
+					       }
+					    ],
+				    eat_wumpus:[ _{ c:_{x:1,y:3},
+						    w:_{id:true}
+						  },
+						 _{ c:_{x:2,y:4},
+						    w:_{id:true}
+						  },
+						 _{ c:_{x:3,y:3},
+						    w:_{id:true}
+						  },
+						 _{ c:_{x:1,y:1},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:2,y:1},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:1,y:2},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:3,y:1},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:2,y:2},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:3,y:2},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:2,y:3},
+						    w:_{id:false}
+						  }
+					       ]
+				  },
+	      uncertain_fluents:_{fatal:[]}
+	    },
+   percepts:[breeze,stench]
+ }
+completed(15, 0.049724664, 3478, 200, ok).
+/*Sun Mar 10 11:51:36 2024*/ request(16, 1710067896.862, [peer(ip(127,0,0,1)),method(put),request_uri('/action'),path('/action'),http_version(1-1),host(localhost),port(8081),connection('keep-alive'),content_length(2741),sec_ch_ua('"Chromium";v="122", "Not(A:Brand";v="24", "Brave";v="122"'),sec_ch_ua_platform('"Linux"'),sec_ch_ua_mobile('?0'),user_agent('Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'),content_type('application/json'),sec_gpc('1'),origin('http://localhost:9000'),sec_fetch_site('same-site'),sec_fetch_mode(cors),sec_fetch_dest(empty),referer('http://localhost:9000/')]).
+_{ beliefs:_{ certain_eternals:_{ cells:[ _{x:0,y:0},
+					  _{x:1,y:0},
+					  _{x:2,y:0},
+					  _{x:3,y:0},
+					  _{x:4,y:0},
+					  _{x:5,y:0},
+					  _{x:0,y:1},
+					  _{x:1,y:1},
+					  _{x:2,y:1},
+					  _{x:3,y:1},
+					  _{x:4,y:1},
+					  _{x:5,y:1},
+					  _{x:0,y:2},
+					  _{x:1,y:2},
+					  _{x:2,y:2},
+					  _{x:3,y:2},
+					  _{x:4,y:2},
+					  _{x:5,y:2},
+					  _{x:0,y:3},
+					  _{x:1,y:3},
+					  _{x:2,y:3},
+					  _{x:3,y:3},
+					  _{x:4,y:3},
+					  _{x:5,y:3},
+					  _{x:0,y:4},
+					  _{x:1,y:4},
+					  _{x:2,y:4},
+					  _{x:3,y:4},
+					  _{x:4,y:4},
+					  _{x:5,y:4},
+					  _{x:0,y:5},
+					  _{x:1,y:5},
+					  _{x:2,y:5},
+					  _{x:3,y:5},
+					  _{x:4,y:5},
+					  _{x:5,y:5}
+					],
+				  eat_exit:_{c:_{x:1,y:1},e:_{id:exit}},
+				  eat_walls:[ _{ c:_{x:5,y:5},
+						 w:_{id:wall20}
+					       },
+					      _{ c:_{x:4,y:5},
+						 w:_{id:wall19}
+					       },
+					      _{ c:_{x:3,y:5},
+						 w:_{id:wall18}
+					       },
+					      _{ c:_{x:2,y:5},
+						 w:_{id:wall17}
+					       },
+					      _{ c:_{x:1,y:5},
+						 w:_{id:wall16}
+					       },
+					      _{ c:_{x:0,y:5},
+						 w:_{id:wall15}
+					       },
+					      _{ c:_{x:5,y:4},
+						 w:_{id:wall14}
+					       },
+					      _{ c:_{x:0,y:4},
+						 w:_{id:wall13}
+					       },
+					      _{ c:_{x:5,y:3},
+						 w:_{id:wall12}
+					       },
+					      _{ c:_{x:0,y:3},
+						 w:_{id:wall11}
+					       },
+					      _{ c:_{x:5,y:2},
+						 w:_{id:wall10}
+					       },
+					      _{ c:_{x:0,y:2},
+						 w:_{id:wall9}
+					       },
+					      _{ c:_{x:5,y:1},
+						 w:_{id:wall8}
+					       },
+					      _{ c:_{x:0,y:1},
+						 w:_{id:wall7}
+					       },
+					      _{ c:_{x:5,y:0},
+						 w:_{id:wall6}
+					       },
+					      _{ c:_{x:4,y:0},
+						 w:_{id:wall5}
+					       },
+					      _{ c:_{x:3,y:0},
+						 w:_{id:wall4}
+					       },
+					      _{ c:_{x:2,y:0},
+						 w:_{id:wall3}
+					       },
+					      _{ c:_{x:1,y:0},
+						 w:_{id:wall2}
+					       },
+					      _{ c:_{x:0,y:0},
+						 w:_{id:wall1}
+					       }
+					    ]
+				},
+	      certain_fluents:_{ alive:[_{id:hunter}],
+				 dir:[_{d:south,h:_{id:hunter}}],
+				 fat_gold:[],
+				 fat_hunter:_{ c:_{x:2,y:3},
+					       h:_{id:hunter}
+					     },
+				 game_state:running,
+				 has_arrow:[ _{ a:_{id:arrow1},
+						h:_{id:hunter}
+					      }
+					   ],
+				 has_gold:true,
+				 score:0,
+				 visited:[ _{ from:_{x:2,y:2},
+					      to:_{x:2,y:3}
+					    },
+					   _{ from:_{x:2,y:1},
+					      to:_{x:2,y:2}
+					    },
+					   _{ from:_{x:1,y:1},
+					      to:_{x:2,y:1}
+					    },
+					   _{ from:_{x:1,y:2},
+					      to:_{x:1,y:1}
+					    },
+					   _{ from:_{x:1,y:1},
+					      to:_{x:1,y:2}
+					    }
+					 ]
+			       },
+	      step:0,
+	      uncertain_eternals:_{ eat_pit:[ _{ c:_{x:3,y:1},
+						 p:_{id:true}
+					       },
+					      _{ c:_{x:2,y:4},
+						 p:_{id:true}
+					       },
+					      _{ c:_{x:3,y:3},
+						 p:_{id:true}
+					       },
+					      _{ c:_{x:1,y:1},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:2,y:1},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:1,y:2},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:2,y:2},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:1,y:3},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:3,y:2},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:2,y:3},
+						 p:_{id:false}
+					       }
+					    ],
+				    eat_wumpus:[ _{ c:_{x:1,y:3},
+						    w:_{id:true}
+						  },
+						 _{ c:_{x:2,y:4},
+						    w:_{id:true}
+						  },
+						 _{ c:_{x:3,y:3},
+						    w:_{id:true}
+						  },
+						 _{ c:_{x:1,y:1},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:2,y:1},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:1,y:2},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:3,y:1},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:2,y:2},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:3,y:2},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:2,y:3},
+						    w:_{id:false}
+						  }
+					       ]
+				  },
+	      uncertain_fluents:_{fatal:[]}
+	    },
+   percepts:[breeze,stench]
+ }
+completed(16, 0.07138017499999999, 3429, 200, ok).
+/*Sun Mar 10 11:51:37 2024*/ request(17, 1710067897.919, [peer(ip(127,0,0,1)),method(put),request_uri('/action'),path('/action'),http_version(1-1),host(localhost),port(8081),connection('keep-alive'),content_length(2682),sec_ch_ua('"Chromium";v="122", "Not(A:Brand";v="24", "Brave";v="122"'),sec_ch_ua_platform('"Linux"'),sec_ch_ua_mobile('?0'),user_agent('Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'),content_type('application/json'),sec_gpc('1'),origin('http://localhost:9000'),sec_fetch_site('same-site'),sec_fetch_mode(cors),sec_fetch_dest(empty),referer('http://localhost:9000/')]).
+_{ beliefs:_{ certain_eternals:_{ cells:[ _{x:0,y:0},
+					  _{x:1,y:0},
+					  _{x:2,y:0},
+					  _{x:3,y:0},
+					  _{x:4,y:0},
+					  _{x:5,y:0},
+					  _{x:0,y:1},
+					  _{x:1,y:1},
+					  _{x:2,y:1},
+					  _{x:3,y:1},
+					  _{x:4,y:1},
+					  _{x:5,y:1},
+					  _{x:0,y:2},
+					  _{x:1,y:2},
+					  _{x:2,y:2},
+					  _{x:3,y:2},
+					  _{x:4,y:2},
+					  _{x:5,y:2},
+					  _{x:0,y:3},
+					  _{x:1,y:3},
+					  _{x:2,y:3},
+					  _{x:3,y:3},
+					  _{x:4,y:3},
+					  _{x:5,y:3},
+					  _{x:0,y:4},
+					  _{x:1,y:4},
+					  _{x:2,y:4},
+					  _{x:3,y:4},
+					  _{x:4,y:4},
+					  _{x:5,y:4},
+					  _{x:0,y:5},
+					  _{x:1,y:5},
+					  _{x:2,y:5},
+					  _{x:3,y:5},
+					  _{x:4,y:5},
+					  _{x:5,y:5}
+					],
+				  eat_exit:_{c:_{x:1,y:1},e:_{id:exit}},
+				  eat_walls:[ _{ c:_{x:5,y:5},
+						 w:_{id:wall20}
+					       },
+					      _{ c:_{x:4,y:5},
+						 w:_{id:wall19}
+					       },
+					      _{ c:_{x:3,y:5},
+						 w:_{id:wall18}
+					       },
+					      _{ c:_{x:2,y:5},
+						 w:_{id:wall17}
+					       },
+					      _{ c:_{x:1,y:5},
+						 w:_{id:wall16}
+					       },
+					      _{ c:_{x:0,y:5},
+						 w:_{id:wall15}
+					       },
+					      _{ c:_{x:5,y:4},
+						 w:_{id:wall14}
+					       },
+					      _{ c:_{x:0,y:4},
+						 w:_{id:wall13}
+					       },
+					      _{ c:_{x:5,y:3},
+						 w:_{id:wall12}
+					       },
+					      _{ c:_{x:0,y:3},
+						 w:_{id:wall11}
+					       },
+					      _{ c:_{x:5,y:2},
+						 w:_{id:wall10}
+					       },
+					      _{ c:_{x:0,y:2},
+						 w:_{id:wall9}
+					       },
+					      _{ c:_{x:5,y:1},
+						 w:_{id:wall8}
+					       },
+					      _{ c:_{x:0,y:1},
+						 w:_{id:wall7}
+					       },
+					      _{ c:_{x:5,y:0},
+						 w:_{id:wall6}
+					       },
+					      _{ c:_{x:4,y:0},
+						 w:_{id:wall5}
+					       },
+					      _{ c:_{x:3,y:0},
+						 w:_{id:wall4}
+					       },
+					      _{ c:_{x:2,y:0},
+						 w:_{id:wall3}
+					       },
+					      _{ c:_{x:1,y:0},
+						 w:_{id:wall2}
+					       },
+					      _{ c:_{x:0,y:0},
+						 w:_{id:wall1}
+					       }
+					    ]
+				},
+	      certain_fluents:_{ alive:[_{id:hunter}],
+				 dir:[_{d:south,h:_{id:hunter}}],
+				 fat_gold:[],
+				 fat_hunter:_{ c:_{x:2,y:2},
+					       h:_{id:hunter}
+					     },
+				 game_state:running,
+				 has_arrow:[ _{ a:_{id:arrow1},
+						h:_{id:hunter}
+					      }
+					   ],
+				 has_gold:true,
+				 score:0,
+				 visited:[ _{ from:_{x:2,y:1},
+					      to:_{x:2,y:2}
+					    },
+					   _{ from:_{x:1,y:1},
+					      to:_{x:2,y:1}
+					    },
+					   _{ from:_{x:1,y:2},
+					      to:_{x:1,y:1}
+					    },
+					   _{ from:_{x:1,y:1},
+					      to:_{x:1,y:2}
+					    }
+					 ]
+			       },
+	      step:0,
+	      uncertain_eternals:_{ eat_pit:[ _{ c:_{x:3,y:1},
+						 p:_{id:true}
+					       },
+					      _{ c:_{x:2,y:4},
+						 p:_{id:true}
+					       },
+					      _{ c:_{x:3,y:3},
+						 p:_{id:true}
+					       },
+					      _{ c:_{x:1,y:1},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:2,y:1},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:1,y:2},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:2,y:2},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:1,y:3},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:3,y:2},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:2,y:3},
+						 p:_{id:false}
+					       }
+					    ],
+				    eat_wumpus:[ _{ c:_{x:1,y:3},
+						    w:_{id:true}
+						  },
+						 _{ c:_{x:2,y:4},
+						    w:_{id:true}
+						  },
+						 _{ c:_{x:3,y:3},
+						    w:_{id:true}
+						  },
+						 _{ c:_{x:1,y:1},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:2,y:1},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:1,y:2},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:3,y:1},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:2,y:2},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:3,y:2},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:2,y:3},
+						    w:_{id:false}
+						  }
+					       ]
+				  },
+	      uncertain_fluents:_{fatal:[]}
+	    },
+   percepts:[]
+ }
+completed(17, 0.05892254100000002, 3359, 200, ok).
+/*Sun Mar 10 11:51:38 2024*/ request(18, 1710067898.974, [peer(ip(127,0,0,1)),method(put),request_uri('/action'),path('/action'),http_version(1-1),host(localhost),port(8081),connection('keep-alive'),content_length(2648),sec_ch_ua('"Chromium";v="122", "Not(A:Brand";v="24", "Brave";v="122"'),sec_ch_ua_platform('"Linux"'),sec_ch_ua_mobile('?0'),user_agent('Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'),content_type('application/json'),sec_gpc('1'),origin('http://localhost:9000'),sec_fetch_site('same-site'),sec_fetch_mode(cors),sec_fetch_dest(empty),referer('http://localhost:9000/')]).
+_{ beliefs:_{ certain_eternals:_{ cells:[ _{x:0,y:0},
+					  _{x:1,y:0},
+					  _{x:2,y:0},
+					  _{x:3,y:0},
+					  _{x:4,y:0},
+					  _{x:5,y:0},
+					  _{x:0,y:1},
+					  _{x:1,y:1},
+					  _{x:2,y:1},
+					  _{x:3,y:1},
+					  _{x:4,y:1},
+					  _{x:5,y:1},
+					  _{x:0,y:2},
+					  _{x:1,y:2},
+					  _{x:2,y:2},
+					  _{x:3,y:2},
+					  _{x:4,y:2},
+					  _{x:5,y:2},
+					  _{x:0,y:3},
+					  _{x:1,y:3},
+					  _{x:2,y:3},
+					  _{x:3,y:3},
+					  _{x:4,y:3},
+					  _{x:5,y:3},
+					  _{x:0,y:4},
+					  _{x:1,y:4},
+					  _{x:2,y:4},
+					  _{x:3,y:4},
+					  _{x:4,y:4},
+					  _{x:5,y:4},
+					  _{x:0,y:5},
+					  _{x:1,y:5},
+					  _{x:2,y:5},
+					  _{x:3,y:5},
+					  _{x:4,y:5},
+					  _{x:5,y:5}
+					],
+				  eat_exit:_{c:_{x:1,y:1},e:_{id:exit}},
+				  eat_walls:[ _{ c:_{x:5,y:5},
+						 w:_{id:wall20}
+					       },
+					      _{ c:_{x:4,y:5},
+						 w:_{id:wall19}
+					       },
+					      _{ c:_{x:3,y:5},
+						 w:_{id:wall18}
+					       },
+					      _{ c:_{x:2,y:5},
+						 w:_{id:wall17}
+					       },
+					      _{ c:_{x:1,y:5},
+						 w:_{id:wall16}
+					       },
+					      _{ c:_{x:0,y:5},
+						 w:_{id:wall15}
+					       },
+					      _{ c:_{x:5,y:4},
+						 w:_{id:wall14}
+					       },
+					      _{ c:_{x:0,y:4},
+						 w:_{id:wall13}
+					       },
+					      _{ c:_{x:5,y:3},
+						 w:_{id:wall12}
+					       },
+					      _{ c:_{x:0,y:3},
+						 w:_{id:wall11}
+					       },
+					      _{ c:_{x:5,y:2},
+						 w:_{id:wall10}
+					       },
+					      _{ c:_{x:0,y:2},
+						 w:_{id:wall9}
+					       },
+					      _{ c:_{x:5,y:1},
+						 w:_{id:wall8}
+					       },
+					      _{ c:_{x:0,y:1},
+						 w:_{id:wall7}
+					       },
+					      _{ c:_{x:5,y:0},
+						 w:_{id:wall6}
+					       },
+					      _{ c:_{x:4,y:0},
+						 w:_{id:wall5}
+					       },
+					      _{ c:_{x:3,y:0},
+						 w:_{id:wall4}
+					       },
+					      _{ c:_{x:2,y:0},
+						 w:_{id:wall3}
+					       },
+					      _{ c:_{x:1,y:0},
+						 w:_{id:wall2}
+					       },
+					      _{ c:_{x:0,y:0},
+						 w:_{id:wall1}
+					       }
+					    ]
+				},
+	      certain_fluents:_{ alive:[_{id:hunter}],
+				 dir:[_{d:south,h:_{id:hunter}}],
+				 fat_gold:[],
+				 fat_hunter:_{ c:_{x:2,y:1},
+					       h:_{id:hunter}
+					     },
+				 game_state:running,
+				 has_arrow:[ _{ a:_{id:arrow1},
+						h:_{id:hunter}
+					      }
+					   ],
+				 has_gold:true,
+				 score:0,
+				 visited:[ _{ from:_{x:1,y:1},
+					      to:_{x:2,y:1}
+					    },
+					   _{ from:_{x:1,y:2},
+					      to:_{x:1,y:1}
+					    },
+					   _{ from:_{x:1,y:1},
+					      to:_{x:1,y:2}
+					    }
+					 ]
+			       },
+	      step:0,
+	      uncertain_eternals:_{ eat_pit:[ _{ c:_{x:3,y:1},
+						 p:_{id:true}
+					       },
+					      _{ c:_{x:2,y:4},
+						 p:_{id:true}
+					       },
+					      _{ c:_{x:3,y:3},
+						 p:_{id:true}
+					       },
+					      _{ c:_{x:1,y:1},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:2,y:1},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:1,y:2},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:2,y:2},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:1,y:3},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:3,y:2},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:2,y:3},
+						 p:_{id:false}
+					       }
+					    ],
+				    eat_wumpus:[ _{ c:_{x:1,y:3},
+						    w:_{id:true}
+						  },
+						 _{ c:_{x:2,y:4},
+						    w:_{id:true}
+						  },
+						 _{ c:_{x:3,y:3},
+						    w:_{id:true}
+						  },
+						 _{ c:_{x:1,y:1},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:2,y:1},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:1,y:2},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:3,y:1},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:2,y:2},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:3,y:2},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:2,y:3},
+						    w:_{id:false}
+						  }
+					       ]
+				  },
+	      uncertain_fluents:_{fatal:[]}
+	    },
+   percepts:[breeze]
+ }
+completed(18, 0.138782213, 3365, 200, ok).
+/*Sun Mar 10 11:51:40 2024*/ request(19, 1710067900.383, [peer(ip(127,0,0,1)),method(options),request_uri('/action'),path('/action'),http_version(1-1),host(localhost),port(8081),connection('keep-alive'),access_control_request_method('PUT'),access_control_request_headers('content-type'),origin('http://localhost:9000'),user_agent('Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'),sec_fetch_mode(cors),sec_fetch_site('same-site'),sec_fetch_dest(empty),referer('http://localhost:9000/')]).
+completed(19, 0.003036350000000021, 0, 200, ok).
+/*Sun Mar 10 11:51:40 2024*/ request(20, 1710067900.390, [peer(ip(127,0,0,1)),method(put),request_uri('/action'),path('/action'),http_version(1-1),host(localhost),port(8081),connection('keep-alive'),content_length(2647),sec_ch_ua('"Chromium";v="122", "Not(A:Brand";v="24", "Brave";v="122"'),sec_ch_ua_platform('"Linux"'),sec_ch_ua_mobile('?0'),user_agent('Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'),content_type('application/json'),sec_gpc('1'),origin('http://localhost:9000'),sec_fetch_site('same-site'),sec_fetch_mode(cors),sec_fetch_dest(empty),referer('http://localhost:9000/')]).
+_{ beliefs:_{ certain_eternals:_{ cells:[ _{x:0,y:0},
+					  _{x:1,y:0},
+					  _{x:2,y:0},
+					  _{x:3,y:0},
+					  _{x:4,y:0},
+					  _{x:5,y:0},
+					  _{x:0,y:1},
+					  _{x:1,y:1},
+					  _{x:2,y:1},
+					  _{x:3,y:1},
+					  _{x:4,y:1},
+					  _{x:5,y:1},
+					  _{x:0,y:2},
+					  _{x:1,y:2},
+					  _{x:2,y:2},
+					  _{x:3,y:2},
+					  _{x:4,y:2},
+					  _{x:5,y:2},
+					  _{x:0,y:3},
+					  _{x:1,y:3},
+					  _{x:2,y:3},
+					  _{x:3,y:3},
+					  _{x:4,y:3},
+					  _{x:5,y:3},
+					  _{x:0,y:4},
+					  _{x:1,y:4},
+					  _{x:2,y:4},
+					  _{x:3,y:4},
+					  _{x:4,y:4},
+					  _{x:5,y:4},
+					  _{x:0,y:5},
+					  _{x:1,y:5},
+					  _{x:2,y:5},
+					  _{x:3,y:5},
+					  _{x:4,y:5},
+					  _{x:5,y:5}
+					],
+				  eat_exit:_{c:_{x:1,y:1},e:_{id:exit}},
+				  eat_walls:[ _{ c:_{x:5,y:5},
+						 w:_{id:wall20}
+					       },
+					      _{ c:_{x:4,y:5},
+						 w:_{id:wall19}
+					       },
+					      _{ c:_{x:3,y:5},
+						 w:_{id:wall18}
+					       },
+					      _{ c:_{x:2,y:5},
+						 w:_{id:wall17}
+					       },
+					      _{ c:_{x:1,y:5},
+						 w:_{id:wall16}
+					       },
+					      _{ c:_{x:0,y:5},
+						 w:_{id:wall15}
+					       },
+					      _{ c:_{x:5,y:4},
+						 w:_{id:wall14}
+					       },
+					      _{ c:_{x:0,y:4},
+						 w:_{id:wall13}
+					       },
+					      _{ c:_{x:5,y:3},
+						 w:_{id:wall12}
+					       },
+					      _{ c:_{x:0,y:3},
+						 w:_{id:wall11}
+					       },
+					      _{ c:_{x:5,y:2},
+						 w:_{id:wall10}
+					       },
+					      _{ c:_{x:0,y:2},
+						 w:_{id:wall9}
+					       },
+					      _{ c:_{x:5,y:1},
+						 w:_{id:wall8}
+					       },
+					      _{ c:_{x:0,y:1},
+						 w:_{id:wall7}
+					       },
+					      _{ c:_{x:5,y:0},
+						 w:_{id:wall6}
+					       },
+					      _{ c:_{x:4,y:0},
+						 w:_{id:wall5}
+					       },
+					      _{ c:_{x:3,y:0},
+						 w:_{id:wall4}
+					       },
+					      _{ c:_{x:2,y:0},
+						 w:_{id:wall3}
+					       },
+					      _{ c:_{x:1,y:0},
+						 w:_{id:wall2}
+					       },
+					      _{ c:_{x:0,y:0},
+						 w:_{id:wall1}
+					       }
+					    ]
+				},
+	      certain_fluents:_{ alive:[_{id:hunter}],
+				 dir:[_{d:west,h:_{id:hunter}}],
+				 fat_gold:[],
+				 fat_hunter:_{ c:_{x:2,y:1},
+					       h:_{id:hunter}
+					     },
+				 game_state:running,
+				 has_arrow:[ _{ a:_{id:arrow1},
+						h:_{id:hunter}
+					      }
+					   ],
+				 has_gold:true,
+				 score:0,
+				 visited:[ _{ from:_{x:1,y:1},
+					      to:_{x:2,y:1}
+					    },
+					   _{ from:_{x:1,y:2},
+					      to:_{x:1,y:1}
+					    },
+					   _{ from:_{x:1,y:1},
+					      to:_{x:1,y:2}
+					    }
+					 ]
+			       },
+	      step:0,
+	      uncertain_eternals:_{ eat_pit:[ _{ c:_{x:3,y:1},
+						 p:_{id:true}
+					       },
+					      _{ c:_{x:2,y:4},
+						 p:_{id:true}
+					       },
+					      _{ c:_{x:3,y:3},
+						 p:_{id:true}
+					       },
+					      _{ c:_{x:1,y:1},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:2,y:1},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:1,y:2},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:2,y:2},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:1,y:3},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:3,y:2},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:2,y:3},
+						 p:_{id:false}
+					       }
+					    ],
+				    eat_wumpus:[ _{ c:_{x:1,y:3},
+						    w:_{id:true}
+						  },
+						 _{ c:_{x:2,y:4},
+						    w:_{id:true}
+						  },
+						 _{ c:_{x:3,y:3},
+						    w:_{id:true}
+						  },
+						 _{ c:_{x:1,y:1},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:2,y:1},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:1,y:2},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:3,y:1},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:2,y:2},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:3,y:2},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:2,y:3},
+						    w:_{id:false}
+						  }
+					       ]
+				  },
+	      uncertain_fluents:_{fatal:[]}
+	    },
+   percepts:[breeze]
+ }
+completed(20, 0.06946874200000003, 3316, 200, ok).
+/*Sun Mar 10 11:51:41 2024*/ request(21, 1710067901.293, [peer(ip(127,0,0,1)),method(put),request_uri('/action'),path('/action'),http_version(1-1),host(localhost),port(8081),connection('keep-alive'),content_length(2597),sec_ch_ua('"Chromium";v="122", "Not(A:Brand";v="24", "Brave";v="122"'),sec_ch_ua_platform('"Linux"'),sec_ch_ua_mobile('?0'),user_agent('Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'),content_type('application/json'),sec_gpc('1'),origin('http://localhost:9000'),sec_fetch_site('same-site'),sec_fetch_mode(cors),sec_fetch_dest(empty),referer('http://localhost:9000/')]).
+_{ beliefs:_{ certain_eternals:_{ cells:[ _{x:0,y:0},
+					  _{x:1,y:0},
+					  _{x:2,y:0},
+					  _{x:3,y:0},
+					  _{x:4,y:0},
+					  _{x:5,y:0},
+					  _{x:0,y:1},
+					  _{x:1,y:1},
+					  _{x:2,y:1},
+					  _{x:3,y:1},
+					  _{x:4,y:1},
+					  _{x:5,y:1},
+					  _{x:0,y:2},
+					  _{x:1,y:2},
+					  _{x:2,y:2},
+					  _{x:3,y:2},
+					  _{x:4,y:2},
+					  _{x:5,y:2},
+					  _{x:0,y:3},
+					  _{x:1,y:3},
+					  _{x:2,y:3},
+					  _{x:3,y:3},
+					  _{x:4,y:3},
+					  _{x:5,y:3},
+					  _{x:0,y:4},
+					  _{x:1,y:4},
+					  _{x:2,y:4},
+					  _{x:3,y:4},
+					  _{x:4,y:4},
+					  _{x:5,y:4},
+					  _{x:0,y:5},
+					  _{x:1,y:5},
+					  _{x:2,y:5},
+					  _{x:3,y:5},
+					  _{x:4,y:5},
+					  _{x:5,y:5}
+					],
+				  eat_exit:_{c:_{x:1,y:1},e:_{id:exit}},
+				  eat_walls:[ _{ c:_{x:5,y:5},
+						 w:_{id:wall20}
+					       },
+					      _{ c:_{x:4,y:5},
+						 w:_{id:wall19}
+					       },
+					      _{ c:_{x:3,y:5},
+						 w:_{id:wall18}
+					       },
+					      _{ c:_{x:2,y:5},
+						 w:_{id:wall17}
+					       },
+					      _{ c:_{x:1,y:5},
+						 w:_{id:wall16}
+					       },
+					      _{ c:_{x:0,y:5},
+						 w:_{id:wall15}
+					       },
+					      _{ c:_{x:5,y:4},
+						 w:_{id:wall14}
+					       },
+					      _{ c:_{x:0,y:4},
+						 w:_{id:wall13}
+					       },
+					      _{ c:_{x:5,y:3},
+						 w:_{id:wall12}
+					       },
+					      _{ c:_{x:0,y:3},
+						 w:_{id:wall11}
+					       },
+					      _{ c:_{x:5,y:2},
+						 w:_{id:wall10}
+					       },
+					      _{ c:_{x:0,y:2},
+						 w:_{id:wall9}
+					       },
+					      _{ c:_{x:5,y:1},
+						 w:_{id:wall8}
+					       },
+					      _{ c:_{x:0,y:1},
+						 w:_{id:wall7}
+					       },
+					      _{ c:_{x:5,y:0},
+						 w:_{id:wall6}
+					       },
+					      _{ c:_{x:4,y:0},
+						 w:_{id:wall5}
+					       },
+					      _{ c:_{x:3,y:0},
+						 w:_{id:wall4}
+					       },
+					      _{ c:_{x:2,y:0},
+						 w:_{id:wall3}
+					       },
+					      _{ c:_{x:1,y:0},
+						 w:_{id:wall2}
+					       },
+					      _{ c:_{x:0,y:0},
+						 w:_{id:wall1}
+					       }
+					    ]
+				},
+	      certain_fluents:_{ alive:[_{id:hunter}],
+				 dir:[_{d:west,h:_{id:hunter}}],
+				 fat_gold:[],
+				 fat_hunter:_{ c:_{x:1,y:1},
+					       h:_{id:hunter}
+					     },
+				 game_state:running,
+				 has_arrow:[ _{ a:_{id:arrow1},
+						h:_{id:hunter}
+					      }
+					   ],
+				 has_gold:true,
+				 score:0,
+				 visited:[ _{ from:_{x:1,y:2},
+					      to:_{x:1,y:1}
+					    },
+					   _{ from:_{x:1,y:1},
+					      to:_{x:1,y:2}
+					    }
+					 ]
+			       },
+	      step:0,
+	      uncertain_eternals:_{ eat_pit:[ _{ c:_{x:3,y:1},
+						 p:_{id:true}
+					       },
+					      _{ c:_{x:2,y:4},
+						 p:_{id:true}
+					       },
+					      _{ c:_{x:3,y:3},
+						 p:_{id:true}
+					       },
+					      _{ c:_{x:1,y:1},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:2,y:1},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:1,y:2},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:2,y:2},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:1,y:3},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:3,y:2},
+						 p:_{id:false}
+					       },
+					      _{ c:_{x:2,y:3},
+						 p:_{id:false}
+					       }
+					    ],
+				    eat_wumpus:[ _{ c:_{x:1,y:3},
+						    w:_{id:true}
+						  },
+						 _{ c:_{x:2,y:4},
+						    w:_{id:true}
+						  },
+						 _{ c:_{x:3,y:3},
+						    w:_{id:true}
+						  },
+						 _{ c:_{x:1,y:1},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:2,y:1},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:1,y:2},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:3,y:1},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:2,y:2},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:3,y:2},
+						    w:_{id:false}
+						  },
+						 _{ c:_{x:2,y:3},
+						    w:_{id:false}
+						  }
+					       ]
+				  },
+	      uncertain_fluents:_{fatal:[]}
+	    },
+   percepts:[]
+ }
+completed(21, 0.05009686999999999, 3305, 200, ok).
+server(logrotate, 1710069561).
